@@ -66,7 +66,7 @@ Det må sies at i enkelte fag blir studentene gitt gode ressurser og innføringe
 
 Vår observasjon er at det er litt ulikt hvordan rapportskriving prioriteres og gjennomføres i de forskjellige studieretningene. Det virker som om det gis noe bedre trening i studieprogrammet ``Biofysikk og medisinsk teknologi'', blant annet gjennom faget TBT4102.
 
-Øvelse i å skrive vitenskapelige rapporter krever at arbeidet egner seg for rapportskriving. Mange av eksperimentene studentene gjør har preg av å være demonstrasjoner av fysiske effekter. Dette er både gøy og godt egnet til å hjelpe studentene å forstå teori. Likevel, slike gode demonstrasjoner er ikke alltid godt egnet for å trene på å rapportskriving. En vitenskapelig rapport er skrevet for å besvare et klart formulert forskningsspørsmål eller hypotese. Det er svært få, om noen, av de oppgavene studentene får som formulerer et klart forskningsspørsmål eller hypotese. Mangel på et klart forskningsspørsmål kan gjøre det krevende å skrive en rapport som følger de standardiserte retningslinjene.
+Øvelse i å skrive vitenskapelige rapporter krever at arbeidet egner seg for rapportskriving. Mange av eksperimentene studentene gjør har preg av å være demonstrasjoner av fysiske effekter. Dette er både gøy og godt egnet til å hjelpe studentene å forstå teori. Likevel, slike gode demonstrasjoner er ikke alltid godt egnet for å trene på rapportskriving. En vitenskapelig rapport er skrevet for å besvare et klart formulert forskningsspørsmål eller hypotese. Det er svært få, om noen, av de oppgavene studentene får som formulerer et klart forskningsspørsmål eller hypotese. Mangel på et klart forskningsspørsmål kan gjøre det krevende å skrive en rapport som følger de standardiserte retningslinjene.
 
 Det ser ikke ut til at det brukes noe felles undervisningsmateriell som forklarer studenter på alle studieprogrammene de grunnleggende reglene for en vitenskapelig rapport. Artikkelen som brukes i faget TFY4260 kan fungere som en slik felles materiell. Alternativt materiell kan være tilsvarende, men litt kortere, artikler gitt i Ref.~\cite{Lapin1994,Senturia2003}.
 
@@ -94,7 +94,7 @@ Kompendiet i faget TMT4110 gir en innføring i ``\emph{failure modes and effects
 
 \subsection{Kunnskap om vanlig brukte måleteknologier}
 \label{Teknikker}
-Faget FY1001 gir studentene kunnskap om å logge data fra en sensor og bruke sensorprodusentens egne software. Fagene TFY4185 og TFY4190 utvikler disse kunnskapene betydelig og gir kunnskap om bruk av Labview og spesialsydd programvare for sensorer, sensorer, og datalogging. Disse kunnskapene er svært nyttige og direkte anvendbare i mange typer jobber innenfor forskjellige fagfelt.
+Faget FY1001 gir studentene kunnskap om å logge data fra en sensor og bruke sensorprodusentens egne software. Fagene TFY4185 og TFY4190 utvikler disse kunnskapene betydelig og gir kunnskap om bruk av Labview og spesialsydd programvare for sensorer og datalogging. Disse kunnskapene er svært nyttige og direkte anvendbare i mange typer jobber innenfor forskjellige fagfelt.
 
 Faget TFY4220 gir studentene kunnskaper om FTIR-spektrometri, røntgendiffraksjon og TEM. Alle disse teknikkene er vanlige å bruke innenfor forskning og utvikling og i enkelte typer industri. SEM er også mye brukt i flere bransjer i arbeidslivet. Faget TMT4110 gir studentene kunnskaper om et bredt spekter av vanlige teknikker i kjemisk laboratoriearbeid. Teknikkene er vanlige å bruke innenfor enkelte typer industri.
 
@@ -109,11 +109,63 @@ Med to unntak er undervisningen i eksperimentelle ferdigheter organisert som en 
 
 Oppgaver med trinnvise instruksjoner kan egne seg godt for å skape forståelse av en fysisk egenskap eller mekanisme. Likevel, i arbeidslivet er det sannsynlig at mange studenter forventes å kunne omsette komplekse oppgaver eller problemstillinger til et eksperiment som kan hjelpe til å ta en beslutning, komme videre med oppgaven eller kaste lys over problemstillingen.
 
+
+
+
+
+
 \subsection{Kunnskap om beregningsmetoder og -verktøy}
 % Gis det tilstrekkelig undervisning i tolkning av storedatasett og/eller artificial intelligence i numerikkfagene? (Kari)
+Kunnskapen om programmering, beregningsmetoder, algoritmisk tenkning, data analyse, og generiske verktøy for å gjennomføre dette,  blir stadig mer etterspurt i næringlivet og i forsking generelt. Det inngår bl.a. i prosessen med å operere avanserte teknisk utstyr f.eks. en FIB, samle inn og analysere numeriske data, gjøre simuleringer, eller det å numerisk løse matematiske likninger, for å gi noen eksempler. Denne kunnskapen er f.eks. essensiell innenfor \textrm{Artificial Inteligence} og \textrm{Machine Learning} som mange bedriter ser store potensielle muligheter innen. Mange bedrifter ønsker å bli mer ''data-driven'', noe som ofte betyr at såkalt \textrm{stordata} blir en del av de utfordringene man må forholde seg til. Stordata er betegnelsen på store og \textrm{uorganiserte} datasett. Lesing og ikke minst analysen av stordatasett gjør ofte at tradisjonelle metoder, som fungerer utmerket for mindre datasett, ikke lenger fungere på en hensiktsmessig måte. Alternative analysemetoder må derfor utvikles for slike forhold. 
+
+Et annet aspekt rundt beregninger som ofte blir sett på som ufravikelig i næringslivet, er revisjonskontroll samt gjenbruk og dokumentasjon av kode. I deler av den vitenskaplige forskningen etterstreber man seg de samme krevene, men i akademia ser man et langt større spenn i kravene til disse aspektene, og enkelte miljøer tar letter på dem. Om man har gjennomført en analyse av et målte datasett, er det kritisk viktig å vite eksakt hvilken versjon av analyse koden som ble brukt når analysen ble gjennomført; om så ikke blir gjort, vil man i mange tilfeller ikke være istand til å reprodusere de opprinnelige analyse resultatene selv med de samme input dataene. Da mister analysen mye av sin verdi da man ikke kan dokumentere hvilke analysesteg som rent faktisk har blitt gjort på rådataene.  
+
+Det å kunne gjenbruke og dokumentere program kode er viktig i næringslivet da andre enn de personene som opprinnelig skrev koden skal kunne bruke den på en riktig måte i fremtiden. På denne måten sikrer også bedriften kontinuerlig og forsvarlig drift selv om sentrale medarbeidere skulle slutte eller bli omplassert i bedriften.
+
+% Matematisk modellering
+Matematisk modellering er ett av kjerne områdene for en fysikker. Det å observere et fysisk fenomen, ofte via eksperimenter, for så å kunne beskrive det via matematiske ligninger som man så løse analytisk og/eller numerisk er kunnskap som gjør mange fysikere ettertraktet i næringlivet. I mange tilfeller ender man opp med hva som idag blir referert til som  multifysikk og/eller multiskala problemer. Løsningen av slike problemer er utfordrende og krevende. For eksempel eksiterer det flere veletablerte kommersielle og open-source generiske numeriske multifysikk verktøy som studentene kunne ha stor nytte av å bli kjent med. Man kunne for eksempel tenke seg at studentene lærte om et fysisk fenomen ved å studere dette via numeriske eksperimenter gjort via slike multifysikk software pakker. 
+
+% High performance computing
+Idag ser man en trend hvor næringlivet i større og større grad ønsker å benytte mer og mer kompliserte simuleringmodeller. Dette skyldes delvis at det ofte er langt mer kostnadsaffektivt å benytte storskala simuleringer der hvor man tidligere kun hadde muligheter for å gjøre eksperimentelle studier. Mer bruk at store og tidkrevende simuleringer betyr også at behovet for High Performance Computing~(HPC) ressuser og personer som kan bruke og programmere slike vil vokse i fremtiden. Selv en ganske ordinær  datamaskin (desktop eller laptop) har idag flere beregningskjerner~(CPU cores) slik at parallelle beregninger kan gjennomføres selv på ganske  vanlige datamaskiner. 
+
+\smallskip
+Studieprogrammene MTFYMA og BFY inneholder begge flere elementer i opplæring og bruk av programmering til å løse fysiske problemer. Detaljer rundt dette vil bli bekrevet utførende i den påfølgende seksjon~[Sec.~\ref{Sec:Programming}]. Undervisningen i de obligatoriske fagene som inngår i studieprogrammene  MTFYMA og BFY har vi ikke funnet å innholder noen av de andre elemente som er nevnt tidligere i denne seksjonen. Den typiske fysikk student blir per idag ikke eksporet for revisjonskontroll systemer, dokumentasjon og metoder for å besørge gjenbruk av kode, numerisk løsning av mutifysikk problemer eller bruk og programmering av HPC-systemer.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \subsection{Kunnskap om programmering}
+\label{Sec:Programming}
 % Karl Yngve: Vet ikke om dette bør være med, men kanskje?
+%Kunnskapen om å programmere blir stadig mer etterspurt i næringlivet og i forsking generelt. Det inngår i prosessen med å operere avanserte maskiner, analysere innsamlede numeriske data, gjøre simuleringer, eller numerisk løse matematiske likninger, for å gi noen eksempler. Denne kunnskapen er f.eks. essensiell innenfor \textrm{Artificial Inteligence} og \textrm{Machine learning}. Mange bedrifter ønsker å bli mer "data-driven", noe som ofte betyr at såkalt \textrm{stordata} blir en del av de utfordrigene man må forholde seg til. Stordata er betegnelsen på store og \textrm{uorganiserte} datasett. Innlesingen og analysen av stordatasett krever ofte at tradisjonelle metoder som fungerer for mindre datasett ikke lenger fungere. 
+
+Studentene på begge programmene MTFYMA og BFY har ett eller flere obligatoriske programmeringsfag. For begge programmene er faget TDT4110 (IT-grunnkurs) obligatorisk, og den varianten som fysikk studentene følger er bassert på programmeringsspråket Python~\footnote{Andre studieretninger bruker Matlab som programmeringspråk i dette faget}. Her blir studentene gitt en generell introduksjon til informasjonsteknologi. Videre lærer de grunnleggende Python programmering  som det å kunne definere og bruke
+variabler, tabeller, aritmetiske og logiske uttrykk, løkker, metoder/funksjoner, filbehandling m.m. Det ser dog ut som det er lite fokus på numeriske beregninger i dette faget. For eksempel, får ikke studenten kunnskap eller opplæring i bruk av modulene numpy, scipy eller matplotlib. Disse modulen er alle kjerne modulene når numeriske bergeninger og vitenskaplig data analyse skal gjennomføres med Python. 
+
+Studieprogrammet MTFYMA har ytterligere ett rent programmeringsfag --- faget TDT4102 (Prosedyre- og objektorientert programmering) hvor studentene blir gitt en introduksjon til programmeringsspråket C++ og dets objektorienterte karakter. Også i dette faget synes det å være lite fokus på numeriske beregninger. Videre har MTFYMA studentene på våren det andre året det obligatoriske faget ''Introduksjon til vitenskapelige beregninger''~(TMA4320) hvor store deler av faget består av programmering. Dette faget består av to hoveddeler. Den første delen gir en introduksjon til numerisk matematikk, mens den andre delen er beregningsorienterte hvor studentene p[ datamaskinen skal løse tre konkrete beregningsorienterte problemstillinger hentet fra fysikk, biofysikk og matematikk. Det bør bemerkes at BFY studentene ikke har fagene TDT4102 og TMA4320 som obligatoriske emner slik som er tilfelle for MTFYMA. Dog kan begge disse fagene velges av BFY studentene.
+
+\smallskip
+Historisk har det vært lite (og delvis ubetydelig) fokus på numeriske beregninger og data analyse i den obligatoriske delen av studieprogrammene MTFYMA og BFY. Som et resultat av dette, ble det fom høsten 2019 innført en såkalt \textrm{ferdighetsstreng} i numeriske beregninger (og en i eksperimenter). Hovedtanken som lå til grunn for denne revisjonen av studieprogrammene var at enkelte ferdigheter ikke utvikles best i enkeltemner men på tvers av emner, både i parallell og kronologisk.  Man startet med å identifisere numeriuke metoder/algoritmer som ble vurdert sentrale for studentene å ha kjennskap til, og så ble obligatoriske beregningsorineterte øvinger laget rundt problemstillinger som brukte disse metodene og plassert som en del av de obligatoriske fysikk emnene hvor den aktuelle tematikken passet best inn. Målet var at summen av disse aktivitetene skulle gi studentene en ''numerical toolbox''  når de var ferdige med studiet. Per utgangen av 2020 er denne modellen innført for fysikk emnene i første året og enkelte av fysikk emnene som blir tatt det andre året. Planen er å videreføre dette til å gjelde de fleste fysikk emnene som er obligatoriske for studieprogrammene MTFYMA og BFY. Eksempler på hva studentene blir eksponert for i de ulike emnene er som følger: FY1001 (Mekanisk fysikk): bruk av numpy og enkel plotting via matplotlib; løsning av ODEer (Forward Euler) --- FY1003~(Elektrisitet og magnetisme) Grafer i 3D og contour-plott; løse Lapace's likning i 2D via iterative metoder --- TFY4163~(Bølgefysikk og fluidmekanikk) introduksjon til scipy; løsning av 2. ordens ODEer via Euler-Cromer; Runge-Kutta metoder via en modul fra scipy. 
+ 
+
+
+
+
+
+
+
+
+
 
 \section{Behov i framtidas samfunn: Generiske ferdigheter}
 \label{Behov}
