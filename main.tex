@@ -5,6 +5,7 @@
 \usepackage[a4paper, margin=3cm]{geometry}
 \usepackage{siunitx}
 \usepackage{hyperref}
+\usepackage[square,sort,comma,numbers]{natbib}
 \usepackage{cleveref}
 \usepackage{xcolor}
 
@@ -15,6 +16,7 @@
 \newcommand{\crefrangeconjunction}{--}
 \crefname{section}{seksjon}{seksjoner}
 \crefname{figure}{figur}{figurer}
+\crefname{appendix}{appendiks}{appendikser}
 
 \usepackage{todonotes}
 \presetkeys{todonotes}{
@@ -26,16 +28,15 @@
 \begin{document}
 
 \maketitle
-%\listoftodos
 \tableofcontents
 
 \begin{abstract}
 \end{abstract}
 
 \section{Introduksjon}
-Eksperimenter, beregninger og teori er de sentrale bærebjelkene i dagens fysikkfag. Samspillet dem i mellom  har lagt grunnlaget for flere av våre innsikter om viktige naturvitenskapelige prosesser, for vår grunnlegende forståelse av sentrale naturlover og for utviklingen av vårt moderne teknologiske samfunn. En grunnleggende forståelse av eksperimenter, teori og beregninger er essensielt for  teknologisk innovasjon og utvikling og danner grunnlaget for vårt framtidige kunnskapsbaserte samfunn.
+Eksperimenter, beregninger og teori er de sentrale bærebjelkene i dagens fysikkfag. Samspillet dem i mellom  har lagt grunnlaget for flere av våre innsikter om viktige naturvitenskapelige prosesser, for vår grunnlegende forståelse av sentrale naturlover og for utviklingen av vårt moderne teknologiske samfunn. En grunnleggende forståelse av eksperimenter, teori og beregninger er essensielt for  teknologisk innovasjon og utvikling og danner grunnlaget for vårt fremtidige kunnskapsbaserte samfunn.
 
-Denne rapporten er et resultat av en ekstern arbeidsgruppes analyse og evaluering av dagens studieprogram MTFYMA og BFY ved Norges teknisk-naturvitenskapelige universitet (NTNU). 
+Denne rapporten er et resultat av en ekstern arbeidsgruppes analyse og evaluering av dagens studieprogram MTFYMA og BFY ved Norges teknisk-naturvitenskapelige universitet (NTNU).
 
 Arbeidsgruppen er bedt spesielt om å se på og forsøke å besvare følgende punkter:
 \begin{itemize}
@@ -48,11 +49,11 @@ Arbeidsgruppen er bedt spesielt om å se på og forsøke å besvare følgende pu
 Vurderingene og anbefalingene i denne rapporten er basert på den eksterne arbeidsgruppens kunnskap om behov i et moderne og høgteknologisk arbeidsliv.  Medlemmene har erfaring fra både undervisning, forskning og teknologisk utvikling i offentlig og privat sektor. Alle har vært med å veilede nyansatte og studenter på både bachelor-, master- og PhD-nivå. Hovedtyngden av erfaringen i arbeidsgruppen er innenfor akademia og oppdragsforskning. Medlemmene i arbeidsgruppen har mindre erfaring som ansatte i industribedrifter og fra store konsulentselskaper innenfor IT og engineering.
 
 \subsection{Rapportens struktur}
-Rapporten inneholder en kort oppsummering av ferdigheter, kompetanser og kunnskaper som arbeidsgruppa ser i dagens studieprogram MTFYMA og BFY. Deretter blir disse satt i sammenheng med ferdighetene, kompetansene og kunnskaper som arbeidsgruppa ser som sentrale i nåværende og framtidige naturvitenskapelige og teknologiske arbeidsmiljø. 
+Rapporten inneholder en kort oppsummering av ferdigheter, kompetanser og kunnskaper som arbeidsgruppa ser dekkes av dagens studieprogram MTFYMA og BFY. Deretter blir disse satt i sammenheng med ferdighetene, kompetansene og kunnskaper som arbeidsgruppa ser som sentrale i nåværende og fremtidige naturvitenskapelige og teknologiske arbeidsmiljø.
 %Inntrykk fra hvordan dagens studenter oppfatter det nåværende studieløpet er også inkludert.
 
-Basert på dette presenterer vi ulike anbefalinger om noen aspekter som kan vurderes for at studieprogrammene enda bedre imøtekommer framtidige behov i et høgteknologisk arbeidsliv, enten det dreier seg om offentlig eller privat sektor.
-%hvordan en kan integrere teori, beregninger og eksperimenter i et studieløp i fysikk. Vårt overordnede mål er å spille inn anbefalinger om 
+Basert på dette presenterer vi anbefalinger om noen aspekter som kan vurderes for at studieprogrammene enda bedre imøtekommer fremtidige behov i et høgteknologisk arbeidsliv, enten det dreier seg om offentlig eller privat sektor.
+%hvordan en kan integrere teori, beregninger og eksperimenter i et studieløp i fysikk. Vårt overordnede mål er å spille inn anbefalinger om
 
 \section{Dagens studieprogram}
 \label{Sammenlikning}
@@ -64,7 +65,7 @@ Det å kunne skrive en mer eller mindre vitenskapelig rapport er en svært nytti
 
 Undervisningen ved MTFYMA og BFY ser ikke ut til å legge mye vekt på trening i å skrive vitenskapelige rapporter. Det er ikke nødvendigvis mangel på krav om at studenter må skrive rapport, men i mange tilfeller ser det ut som om rapportene består i å svare på forhåndsstilte spørsmål.
 
-Det må sies at i enkelte fag blir studentene gitt gode ressurser og innføringer, slik som i faget TFY4260. Her skal studentene skrive en vitenskapelig rapport og får artikkelen av Ecarnot et al.~som læremateriale. Artikkelen er en dekkende og tydelig innføring i prinsippene for og formelle krav til en vitenskapelig artikkel. Innholdet er svært relevant for vitenskapelige rapporter.
+I enkelte fag blir studentene gitt gode ressurser og innføringer, slik som i faget TFY4260. Her skal studentene skrive en vitenskapelig rapport og får artikkelen av \citet{Ecarnot2015} som læremateriale. Artikkelen er en dekkende og tydelig innføring i prinsippene for og formelle krav til en vitenskapelig artikkel. Innholdet er svært relevant for vitenskapelige rapporter.
 
 Vår observasjon er at det er litt ulikt hvordan rapportskriving prioriteres og gjennomføres i de forskjellige studieretningene. Det virker som om det gis noe bedre trening i studieprogrammet ``Biofysikk og medisinsk teknologi'', blant annet gjennom faget TBT4102.
 
@@ -75,7 +76,7 @@ Det ser ikke ut til at det brukes noe felles undervisningsmateriell som forklare
 \subsection{Erfaring med å jobbe både i prosjektform og selvstendig}
 Studenter får erfaring både med selvstendig arbeid og det å jobbe i grupper. De fleste fag bærer likevel preg av at studentene jobber alene.
 
-Det å jobbe i gruppe og med prosjektform er spesielt fokusert på i faget ``Eksperter i Team'', et fag studentene ved MTFYMA har i fjerde klasse. Ellers har også mange av de eksperimentelle fagene undervisning som foregår i små grupper. I noen fag gjennomføres større arbeider som samarbeidsprosjekter (f.eks. TFY4185, TFY4190 og TBT4102). Sammen gir disse fagene relevant trening i å jobbe i prosjektform sammen med andre. Denne erfaringen er veldig nyttig i arbeidslivet.
+Det å jobbe i gruppe og med prosjektform er spesielt fokusert på i faget ``Eksperter i Team'', et fag studentene ved MTFYMA har i fjerde klasse. Ellers har også mange av de eksperimentelle fagene undervisning som foregår i små grupper. I noen fag gjennomføres større arbeider som samarbeidsprosjekter (f.eks.~TFY4185, TFY4190 og TBT4102). Sammen gir disse fagene relevant trening i å jobbe i prosjektform sammen med andre. Denne erfaringen er veldig nyttig i arbeidslivet.
 
 Det er uklart om studentene ved BFY som ikke følger noen av fagene TFY4185, TFY4190 eller TBT4102 får tilsvarende trening i å jobbe i prosjektform sammen med andre over flere uker.
 
@@ -85,7 +86,7 @@ Det å formulere en testbar hypotese eller et forskningsspørsmål er noe vi ans
 De aller fleste av de eksperimentelle oppgavene i fagene TMT4110, FY1001, FY1003, TFY4163, TFY4165, TFY4185, TFY4220 og TFY4190 har formulerte læringsmål. Imidlertid er det få eller ingen av oppgavene i disse fagene som presenterer et klart formulert forskningsspørsmål eller testbar hypotese som grunnlag for eksperimentet. Det ser heller ikke ut til at noen eksperimentelle oppgaver i programmet MTFYMA trener studentene i selv å formulere en testbar hypotese. Mange av de eksperimentelle oppgavene har som læringsmål å ``studere'' eller ``undersøke'' en egenskap. Disse formuleringene er ikke testbare: det er ikke mulig å vite om målet er oppfylt eller ikke. Dette gjør at målet med selve eksperimentet er implisitt. Et implisitt mål er uklart, og gjør det senere vanskelig å skrive en god vitenskapelig rapport (se \cref{Rapport}).
 
 \subsection{Kunnskap om god dokumentasjonspraksis}
-Undervisningen i eksperimentelle ferdigheter bruker en generell ressurs i Perssons kompendium~\cite{Persson2020}, men også mange tilleggsskriv fra de forskjellige faglærerne. Eksempler på tilleggs-skriv er heftet til Persson i emnet FY1001~\cite{Persson2020FY1001}. Ingen av kompendiene eller skrivene ser ut til å gi noen tydelige henvisninger til etablerte retningslinjer for ``\emph{good documentation practices}'' (GDP) eller ``\emph{good laboratory practice}'' (GLP). Praktiske henvisninger til GDP kan være f.eks.~Wikipedia~\cite{WikiGDP} eller kapittelet ``Good Documentation Practices'' i \cite{Davani2017}. En praktisk henvisning til GLP kunne være f.eks.~deler av OECD sine prinsipper \cite{OECD1997}.
+Undervisningen i eksperimentelle ferdigheter bruker en generell ressurs i Perssons kompendium~\cite{Persson2020}, men også mange tilleggsskriv fra de forskjellige faglærerne. Eksempler på tilleggs-skriv er heftet til Persson i emnet FY1001~\cite{Persson2020FY1001}. Ingen av kompendiene eller skrivene ser ut til å gi noen tydelige henvisninger til etablerte retningslinjer for ``\emph{good documentation practices}'' (GDP) eller ``\emph{good laboratory practice}'' (GLP). Praktiske henvisninger til GDP kan være f.eks.~Wikipedia~\cite{WikiGDP} eller kapittelet ``Good Documentation Practices'' i Ref.~\cite{Davani2017}. En praktisk henvisning til GLP kunne være f.eks.~deler av OECD sine prinsipper \cite{OECD1997}.
 
 Det generelle kompendiet \cite{Persson2020} beskriver en bruk av journal som ikke er vanlig i næringsliv og oppdragsforskning. Prinsippene for dokumentasjon av ideer, protokoller, planer, eksperimentelle oppsett, beregninger og resultatvurderinger anvendes i næringsliv og oppdragsforskning. Imidlertid er det svært vanlig i arbeidslivet at selve dokumentasjonen må være tilgjengelig for flere personer, for eksempel prosjektmedarbeidere. Dette sikrer at prosjektets fremdrift er robust og ikke avhengig av at alle er på jobb hele tiden. Derfor er det vanlig å lagre det meste av dokumentasjon i en elektronisk ressurs og ikke i en håndskrevet journal. En elektronisk ressurs kan for eksempel være et elektronisk dokumenthåndteringssystem eller en filserver. Prinsippet om samtidig datainnsamling står fast i eksperimentelt arbeid. Automatisert datainnsamling er svært vanlig, og kan for eksempel sørge for at data samles på en felles filserver der de er beskyttet mot modifikasjon.
 
@@ -96,7 +97,7 @@ Kompendiet i faget TMT4110 gir en innføring i ``\emph{failure modes and effects
 
 \subsection{Kunnskap om vanlig brukte måleteknologier}
 \label{Teknikker}
-Faget FY1001 gir studentene kunnskap om å logge data fra en sensor og bruke sensorprodusentens egne software. Fagene TFY4185 og TFY4190 utvikler disse kunnskapene betydelig og gir kunnskap om bruk av Labview og spesialsydd programvare for sensorer og datalogging. Disse kunnskapene er svært nyttige og direkte anvendbare i mange typer jobber innenfor forskjellige fagfelt.
+Faget FY1001 gir studentene kunnskap om å logge data fra en sensor og bruke sensorprodusentens egne programvare. Fagene TFY4185 og TFY4190 utvikler disse kunnskapene betydelig og gir kunnskap om bruk av Labview og spesialsydd programvare for sensorer og datalogging. Disse kunnskapene er svært nyttige og direkte anvendbare i mange typer jobber innenfor forskjellige fagfelt.
 
 Faget TFY4220 gir studentene kunnskaper om FTIR-spektrometri, røntgendiffraksjon og TEM. Alle disse teknikkene er vanlige å bruke innenfor forskning og utvikling og i enkelte typer industri. SEM er også mye brukt i flere bransjer i arbeidslivet. Faget TMT4110 gir studentene kunnskaper om et bredt spekter av vanlige teknikker i kjemisk laboratoriearbeid. Teknikkene er vanlige å bruke innenfor enkelte typer industri.
 
@@ -107,74 +108,31 @@ Faget TBT4102 gir studentene kunnskaper om kromatografi og elektroforese. Begge 
 To av laboratorieoppgavene i faget FY1001 og alle laboratorieoppgavene i fagene FY1003, TFY4163 og TFY4165 har preg av å være demonstrasjoner som hjelper studentene å forstå teorien de leser. Disse laboratorieoppgavene ser ut til å støtte teoriundervisningen og ikke gi studentene faglige kunnskaper utover det som også formidles gjennom forelesningene.
 
 \subsection{Kunnskap om eksperimentdesign}
-Med to unntak er undervisningen i eksperimentelle ferdigheter organisert som en trinnvis øvelse som studentene ledes gjennom. Selv om studentene selv skal gjennomføre det praktiske arbeidet, legger undervisningen ikke til rette for at studentene selv skal finne et egnet måleoppsett eller skrive protokoll. Unntakene er fagene TFY4190 og TBT4102. I TFY4190 skal studentene planlegge, og gjennomføre et eksperiment og skrive rapport, og i TBT4102 skal studentene skrive protokoll, gjennomføre eksperimentelt arbeid, og skrive rapport.
+Etter vår observasjon er undervisningen i eksperimentelle ferdigheter som regel organisert som en trinnvis øvelse som studentene ledes gjennom. Selv om studentene selv skal gjennomføre det praktiske arbeidet, legger undervisningen ikke til rette for at studentene selv skal finne et egnet måleoppsett eller skrive protokoll. Vi noterte oss to unntak: TFY4190 og TBT4102. I TFY4190 skal studentene planlegge, og gjennomføre et eksperiment og skrive rapport, og i TBT4102 skal studentene skrive protokoll, gjennomføre eksperimentelt arbeid, og skrive rapport.
 
 Oppgaver med trinnvise instruksjoner kan egne seg godt for å skape forståelse av en fysisk egenskap eller mekanisme. Likevel, i arbeidslivet er det sannsynlig at mange studenter forventes å kunne omsette komplekse oppgaver eller problemstillinger til et eksperiment som kan hjelpe til å ta en beslutning, komme videre med oppgaven eller kaste lys over problemstillingen.
 
-
-
-
-
-
 \subsection{Kunnskap om beregningsmetoder og -verktøy}
-% Gis det tilstrekkelig undervisning i tolkning av storedatasett og/eller artificial intelligence i numerikkfagene? (Kari)
-Kunnskapen om programmering, beregningsmetoder, algoritmisk tenkning, data analyse, og generiske verktøy for å gjennomføre dette,  blir stadig mer etterspurt i næringlivet og i forsking generelt. Det inngår bl.a. i prosessen med å operere avanserte teknisk utstyr f.eks. en FIB, samle inn og analysere numeriske data, gjøre simuleringer, eller det å numerisk løse matematiske likninger, for å gi noen eksempler. Denne kunnskapen er f.eks. essensiell innenfor \textrm{Artificial Inteligence} og \textrm{Machine Learning} som mange bedriter ser store potensielle muligheter innen. Mange bedrifter ønsker å bli mer ''data-driven'', noe som ofte betyr at såkalt \textrm{stordata} blir en del av de utfordringene man må forholde seg til. Stordata er betegnelsen på store og \textrm{uorganiserte} datasett. Lesing og ikke minst analysen av stordatasett gjør ofte at tradisjonelle metoder, som fungerer utmerket for mindre datasett, ikke lenger fungere på en hensiktsmessig måte. Alternative analysemetoder må derfor utvikles for slike forhold. 
+De obligatoriske fagene som inngår i studieprogrammene MTFYMA og BFY inneholder en tydelig basis innenfor beregningsmetoder. Dette introduseres hovedsaklig gjennom TMA4100 og TMA4320, men også lineær algebra-delen av TMA4110 er viktig (eller MA1202 for BFY). TMA4320 er valgbart på BFY. I fagretningen ``Teknisk Fysikk'' ved MTFYMA er også faget TFY4235 spesielt relevant. Det fremstår for oss som at studentene får en ganske god opplæring i det matematiske grunnlaget av beregningsmetoder og delvis også data-analyse.
 
-Et annet aspekt rundt beregninger som ofte blir sett på som ufravikelig i næringslivet, er revisjonskontroll samt gjenbruk og dokumentasjon av kode. I deler av den vitenskaplige forskningen etterstreber man seg de samme krevene, men i akademia ser man et langt større spenn i kravene til disse aspektene, og enkelte miljøer tar letter på dem. Om man har gjennomført en analyse av et målte datasett, er det kritisk viktig å vite eksakt hvilken versjon av analyse koden som ble brukt når analysen ble gjennomført; om så ikke blir gjort, vil man i mange tilfeller ikke være istand til å reprodusere de opprinnelige analyse resultatene selv med de samme input dataene. Da mister analysen mye av sin verdi da man ikke kan dokumentere hvilke analysesteg som rent faktisk har blitt gjort på rådataene.  
-
-Det å kunne gjenbruke og dokumentere program kode er viktig i næringslivet da andre enn de personene som opprinnelig skrev koden skal kunne bruke den på en riktig måte i fremtiden. På denne måten sikrer også bedriften kontinuerlig og forsvarlig drift selv om sentrale medarbeidere skulle slutte eller bli omplassert i bedriften.
-
-% Matematisk modellering
-Matematisk modellering er ett av kjerne områdene for en fysikker. Det å observere et fysisk fenomen, ofte via eksperimenter, for så å kunne beskrive det via matematiske ligninger som man så løse analytisk og/eller numerisk er kunnskap som gjør mange fysikere ettertraktet i næringlivet. I mange tilfeller ender man opp med hva som idag blir referert til som  multifysikk og/eller multiskala problemer. Løsningen av slike problemer er utfordrende og krevende. For eksempel eksiterer det flere veletablerte kommersielle og open-source generiske numeriske multifysikk verktøy som studentene kunne ha stor nytte av å bli kjent med. Man kunne for eksempel tenke seg at studentene lærte om et fysisk fenomen ved å studere dette via numeriske eksperimenter gjort via slike multifysikk software pakker. 
-
-% High performance computing
-Idag ser man en trend hvor næringlivet i større og større grad ønsker å benytte mer og mer kompliserte simuleringmodeller. Dette skyldes delvis at det ofte er langt mer kostnadsaffektivt å benytte storskala simuleringer der hvor man tidligere kun hadde muligheter for å gjøre eksperimentelle studier. Mer bruk at store og tidkrevende simuleringer betyr også at behovet for High Performance Computing~(HPC) ressuser og personer som kan bruke og programmere slike vil vokse i fremtiden. Selv en ganske ordinær  datamaskin (desktop eller laptop) har idag flere beregningskjerner~(CPU cores) slik at parallelle beregninger kan gjennomføres selv på ganske  vanlige datamaskiner. 
-
-\smallskip
-Studieprogrammene MTFYMA og BFY inneholder begge flere elementer i opplæring og bruk av programmering til å løse fysiske problemer. Detaljer rundt dette vil bli bekrevet utførende i den påfølgende seksjon~[Sec.~\ref{Sec:Programming}]. Undervisningen i de obligatoriske fagene som inngår i studieprogrammene  MTFYMA og BFY har vi ikke funnet å innholder noen av de andre elemente som er nevnt tidligere i denne seksjonen. Den typiske fysikk student blir per idag ikke eksporet for revisjonskontroll systemer, dokumentasjon og metoder for å besørge gjenbruk av kode, numerisk løsning av mutifysikk problemer eller bruk og programmering av HPC-systemer.
-
-
-
-
-
-
-
-
-
-
-
-
-
+Opplæring i bruk av generiske verktøy og metodikk ser ut til å være mer fraværende. Det vil si, den typiske fysikkstudent blir per idag ikke eksponert for revisjonskontrollsystemer, kodedokumentasjon og metoder for å besørge gjenbruk av kode, numerisk løsning av multifysikkproblemer eller bruk og programmering av HPC-systemer. Det er også lite eller ingen fokus på maskinlæringsmetoder, som for tiden er populært i industrien.
 
 \subsection{Kunnskap om programmering}
 \label{Sec:Programming}
-% Karl Yngve: Vet ikke om dette bør være med, men kanskje?
-%Kunnskapen om å programmere blir stadig mer etterspurt i næringlivet og i forsking generelt. Det inngår i prosessen med å operere avanserte maskiner, analysere innsamlede numeriske data, gjøre simuleringer, eller numerisk løse matematiske likninger, for å gi noen eksempler. Denne kunnskapen er f.eks. essensiell innenfor \textrm{Artificial Inteligence} og \textrm{Machine learning}. Mange bedrifter ønsker å bli mer "data-driven", noe som ofte betyr at såkalt \textrm{stordata} blir en del av de utfordrigene man må forholde seg til. Stordata er betegnelsen på store og \textrm{uorganiserte} datasett. Innlesingen og analysen av stordatasett krever ofte at tradisjonelle metoder som fungerer for mindre datasett ikke lenger fungere. 
+Studentene på MTFYMA og BFY har ett eller flere obligatoriske programmeringsfag. Under begge programmene er faget TDT4110 (IT-grunnkurs) obligatorisk. Den varianten som fysikkstudentene følger er basert på programmeringsspråket Python~\footnote{Andre studieretninger bruker Matlab som programmeringspråk i dette faget.}. Studentene blir gitt en generell introduksjon til informasjonsteknologi. Videre lærer de grunnleggende Python-programmering som det å kunne definere og bruke variabler, tabeller, aritmetiske og logiske uttrykk, løkker, metoder/funksjoner, filbehandling med mer. Det ser ut som det er lite fokus på numeriske beregninger i dette faget. For eksempel får ikke studenten kunnskap eller opplæring i bruk av de kjernepakkene NumPy, SciPy eller matplotlib. Disse pakkene er essensielle Python-pakker for numeriske bergegninger og vitenskaplig data-analyse.
 
-Studentene på begge programmene MTFYMA og BFY har ett eller flere obligatoriske programmeringsfag. For begge programmene er faget TDT4110 (IT-grunnkurs) obligatorisk, og den varianten som fysikk studentene følger er bassert på programmeringsspråket Python~\footnote{Andre studieretninger bruker Matlab som programmeringspråk i dette faget}. Her blir studentene gitt en generell introduksjon til informasjonsteknologi. Videre lærer de grunnleggende Python programmering  som det å kunne definere og bruke
-variabler, tabeller, aritmetiske og logiske uttrykk, løkker, metoder/funksjoner, filbehandling m.m. Det ser dog ut som det er lite fokus på numeriske beregninger i dette faget. For eksempel, får ikke studenten kunnskap eller opplæring i bruk av modulene numpy, scipy eller matplotlib. Disse modulen er alle kjerne modulene når numeriske bergeninger og vitenskaplig data analyse skal gjennomføres med Python. 
+Studieprogrammet MTFYMA har ytterligere ett rent programmeringsfag: ``Prosedyre- og objektorientert programmering''~(TDT4102). Her blir studentene gitt en introduksjon til programmeringsspråket C++ og dets objektorienterte karakter. Også i dette faget synes det å være lite fokus på numeriske beregninger. Videre har MTFYMA-studentene på våren det andre året det obligatoriske faget ``Introduksjon til vitenskapelige beregninger''~(TMA4320) hvor store deler av faget består av programmering. Dette faget består av to hoveddeler. Den første delen gir en introduksjon til numerisk matematikk, mens den andre delen er beregningsorienterte hvor studentene på datamaskinen skal løse tre konkrete beregningsorienterte problemstillinger hentet fra fysikk, biofysikk og matematikk. Det bør bemerkes at BFY studentene ikke har fagene TDT4102 og TMA4320 som obligatoriske emner slik som er tilfelle for MTFYMA. Dog kan begge disse fagene velges av BFY studentene.
 
-Studieprogrammet MTFYMA har ytterligere ett rent programmeringsfag --- faget TDT4102 (Prosedyre- og objektorientert programmering) hvor studentene blir gitt en introduksjon til programmeringsspråket C++ og dets objektorienterte karakter. Også i dette faget synes det å være lite fokus på numeriske beregninger. Videre har MTFYMA studentene på våren det andre året det obligatoriske faget ''Introduksjon til vitenskapelige beregninger''~(TMA4320) hvor store deler av faget består av programmering. Dette faget består av to hoveddeler. Den første delen gir en introduksjon til numerisk matematikk, mens den andre delen er beregningsorienterte hvor studentene p[ datamaskinen skal løse tre konkrete beregningsorienterte problemstillinger hentet fra fysikk, biofysikk og matematikk. Det bør bemerkes at BFY studentene ikke har fagene TDT4102 og TMA4320 som obligatoriske emner slik som er tilfelle for MTFYMA. Dog kan begge disse fagene velges av BFY studentene.
+Historisk har det vært lite (og delvis ubetydelig) fokus på numeriske beregninger og data-analyse i den obligatoriske delen av studieprogrammene MTFYMA og BFY. Som et resultat av dette, ble det fra og med høsten 2019 innført en såkalt \emph{ferdighetsstreng} i numeriske beregninger. Hovedtanken som lå til grunn for denne revisjonen av studieprogrammene var at enkelte ferdigheter ikke utvikles best i enkeltemner men på tvers av emner, både i parallell og kronologisk. Man startet med å identifisere numeriske metoder og algoritmer som ble vurdert sentrale for studentene å ha kjennskap til, og så ble obligatoriske beregningsorineterte øvinger laget rundt problemstillinger som brukte disse metodene og plassert som en del av de obligatoriske fysikkemnene hvor den aktuelle tematikken passet best inn. Målet var at summen av disse aktivitetene skulle gi studentene en ``numerical toolbox'' når de var ferdige med studiet. Per utgangen av 2020 er denne modellen innført for fysikkemnene i første året og enkelte av fysikkemnene som blir tatt det andre året. Planen er å videreføre dette til å gjelde de fleste fysikkemnene som er obligatoriske for studieprogrammene MTFYMA og BFY. Eksempler på hva studentene blir eksponert for i de ulike emnene er som følger:
+\begin{itemize}
+  \item FY1001 (Mekanisk fysikk): bruk av NumPy og enkel plotting med matplotlib, samt løsning av vanlige differensialligninger (ODEer) med framlengs Euler.
+  \item FY1003 (Elektrisitet og magnetisme): tegning av grafer i 3D og konturplott og løse Lapace's likning i 2D via iterative metoder.
+  \item TFY4163 (Bølgefysikk og fluidmekanikk): introduksjon til SciPy, løsning av 2. ordens ODEer via Euler-Cromer, samt Runge-Kutta metoder via en modul fra SciPy.
+\end{itemize}
 
-\smallskip
-Historisk har det vært lite (og delvis ubetydelig) fokus på numeriske beregninger og data analyse i den obligatoriske delen av studieprogrammene MTFYMA og BFY. Som et resultat av dette, ble det fom høsten 2019 innført en såkalt \textrm{ferdighetsstreng} i numeriske beregninger (og en i eksperimenter). Hovedtanken som lå til grunn for denne revisjonen av studieprogrammene var at enkelte ferdigheter ikke utvikles best i enkeltemner men på tvers av emner, både i parallell og kronologisk.  Man startet med å identifisere numeriuke metoder/algoritmer som ble vurdert sentrale for studentene å ha kjennskap til, og så ble obligatoriske beregningsorineterte øvinger laget rundt problemstillinger som brukte disse metodene og plassert som en del av de obligatoriske fysikk emnene hvor den aktuelle tematikken passet best inn. Målet var at summen av disse aktivitetene skulle gi studentene en ''numerical toolbox''  når de var ferdige med studiet. Per utgangen av 2020 er denne modellen innført for fysikk emnene i første året og enkelte av fysikk emnene som blir tatt det andre året. Planen er å videreføre dette til å gjelde de fleste fysikk emnene som er obligatoriske for studieprogrammene MTFYMA og BFY. Eksempler på hva studentene blir eksponert for i de ulike emnene er som følger: FY1001 (Mekanisk fysikk): bruk av numpy og enkel plotting via matplotlib; løsning av ODEer (Forward Euler) --- FY1003~(Elektrisitet og magnetisme) Grafer i 3D og contour-plott; løse Lapace's likning i 2D via iterative metoder --- TFY4163~(Bølgefysikk og fluidmekanikk) introduksjon til scipy; løsning av 2. ordens ODEer via Euler-Cromer; Runge-Kutta metoder via en modul fra scipy. 
- 
-
-
-
-
-
-
-
-
-
-
-\section{Behov i framtidas samfunn: Generiske ferdigheter}
-\label{Behov}
-%\todo{Alle. Forslag er at vi ferdigstiller dette etter at vi er fornøyde med de andre avsnittene.}
-Arbeidgivere vil forvente og vil ha nytte av at uteksaminerte studenter fra MTFYMA har faglig 
-4
- kunnskap innenfor fysikk, kjemi, matematikk, statistikk og programmering.
+\section{Behov i fremtidens samfunn: Generiske ferdigheter}
+\label{sec:behov}
+Arbeidgivere vil forvente og vil ha nytte av at uteksaminerte studenter fra MTFYMA har faglig kunnskap innenfor fysikk, kjemi, matematikk, statistikk og programmering.
 Arbeidgivere vil forvente at studentene har en solid teoretisk kunnskapsbase og at de kan gjøre avanserte beregninger, både analytiske og numeriske.
 
 \subsection{Sammenfatte resultater av en undersøkelse i en rapport}
@@ -188,7 +146,7 @@ Strukturen i en vitenskapelig rapport er godt egnet som skriftlig dokumentasjon 
 De formelle kravene til en vitenskapelig rapport er gode og nyttige verktøy for å sikre lesbarhet og sporbarhet i argumentasjonen.
 Noen eksempler på formelle krav er å ha figurtekst under figurer, tabelltekst (som oftest) over tabeller, å referere til alle figurer og tabeller i teksten, og å skrive referanseliste riktig.
 
-En vitenskapelig rapport må også diskutere og tolke resultatene i lys av godt beskrevne antagelser,  forutsetninger og betingelser, og sammenlikne dem med eventuelle resultater som er oppnådd av andre.
+En vitenskapelig rapport må også diskutere og tolke resultatene i lys av godt beskrevne antagelser, forutsetninger og betingelser, og sammenlikne dem med eventuelle resultater som er oppnådd av andre.
 Dette plasserer undersøkelsen/eksperimentet i sammenheng med allerede etablert kunnskap.
 Dette er igjen viktig for å vurdere resultatenes legitimitet.
 Til sist må metodikken som er benyttet for å oppnå resultatene beskrives tilstrekkelig detaljert til at andre kan reprodusere rapportens resultater.
@@ -197,7 +155,7 @@ Til sist må metodikken som er benyttet for å oppnå resultatene beskrives tils
 \subsection{Erfaring med å jobbe både i prosjektform og selvstendig}
 Mange oppgaver i arbeidslivet er organisert som et prosjekt med en prosjektleder og prosjektmedarbeidere.
 Dette gjelder også eksperimentelt arbeid.
-Det er nyttig for arbeidslivet at studentene får noe erfaring med å utføre eksperimentelt arbeid sammen med andre i prosjektform.
+Det er nyttig for arbeidslivet at studentene får erfaring med å utføre eksperimentelt arbeid sammen med andre i prosjektform.
 Når et eksperiment er organisert som et prosjekt med flere medarbeidere settes det flere krav til dokumentasjonspraksis hos hver enkelt medarbeider.
 
 Samtidig som prosjektet er en vanlig arbeidsform er arbeidsgivere også avhengig av at arbeidstakerne kan jobbe selvstendig.
@@ -224,344 +182,266 @@ Når eksperimenter skal brukes som grunnlag for å velge teknologi eller løse e
 
 \subsection{Kunne redegjøre for antagelser som ligger til grunn for modell/ eksperiment-utforming}
 Ved anvendelse av matematiske modeller og sammenlikning med eksperimentell data er det essensielt å kunne redegjøre for hvilke antagelser som ligger til grunn for modellen og eksperimentet og hvilken betydning antagelsene vil ha for tolkningen av resultatene.
-Dette stiller krav til innsikten i problemstillingen som studeres og vil kunne brukes for f.eks. å kritisere/forbedre modellen i de fall det er stort avvik mellom modell og eksperiment.
+Dette stiller krav til innsikten i problemstillingen som studeres og vil kunne brukes for f.eks.~å kritisere eller forbedre modellen når det er stort avvik mellom modell og eksperiment.
 
 \subsection{Kunnskap om god dokumentasjonspraksis}
 I en jobbsituasjon må eksperimentelt arbeid dokumenteres. Det er nyttig for arbeidslivet at arbeidstakerne har kjennskap til retningslinjer for god dokumentasjonspraksis (GDP), god laboratoriepraksis (GLP), og dataintegritet (DI) og vet hvor de kan finne oppdateringer av disse retningslinjene.
 
-Studenter kan gjerne være kjent med Laboratory Information Management System (LIMS) systemer. 
+Studenter kan gjerne være kjent med Laboratory Information Management System (LIMS) systemer. {\color{red}(Hvorfor det?)}
 %Jeg jobber til dels med Labvantage LIMS og jeg kan ikke redegjøre for hva dets formål ikke er :) Jeg lurer på hva vi mener med dette? Kari
 
-\subsection{Kunnskap om god kodeutviklingspraksis}
-I et stadig mer digitalisert næringsliv bør studenter være kjent med verktøy for versjonskontroll av kildekode og rutiner for testing (enhetstesting) og godkjenning av ny eller forbedret kode. Hvorvidt studenter bør være kjent med elementer av sikker kodedesign samt tungregning bør vurderes. I distribuerte kodeutviklingsprosjekter (i tid eller rom) bør studentene være kjente med ulike  arbeidsformer som benyttes i industrien, samt metoder for ``automatisk'' dokumentasjon av kode (f.eks. \verb+doxygen+).
-
 \subsection{Kjennskap til risikoanalyse}
-Mange arbeidsplasser og bedrifter bruker standardiserte metoder for risikoanalyse, f.eks. Failure Mode and Effect Analysis (FMEA). Det er nyttig for arbeidsgivere at nye ansatte har kjennskap til konseptet risikoanalyse, og gjerne kjennskap til en metodikk for å gjennomføre risikoanalyse.
+Mange arbeidsplasser og bedrifter bruker standardiserte metoder for risikoanalyse, f.eks.~Failure Mode and Effect Analysis (FMEA). Det er nyttig for arbeidsgivere at nye ansatte har kjennskap til konseptet risikoanalyse, og gjerne kjennskap til en metodikk for å gjennomføre risikoanalyse.
 
-\section{Behov i framtidas samfunn: Digital kompetanse og beregningsorientert fysikk}\label{sec:beregninger}
-
-Vitenskapelige beregninger har som mål å utvikle nøyaktige metoder og modeller som setter oss i stand til å studere komplekse naturvitenskapelige og teknologiske system og fenomen. Mange av disse er såpass komplekse at fysiske eksperiment fort blir for kostbare eller nesten umulige å gjennomføre i et laboratorium. Det blir stadig mer vanlig å erstatte kompliserte eksperimenter med numeriske beregninger. Numeriske beregninger, modellering, og evne til å behandle og analysere store datasett spiller dermed en sentral rolle i moderne vitenskap og teknologisk utvikling. Digital kompetanse, innsikter og ferdigheter bør dermed være naturlige element i et naturvitenskapelig studieprogram. 
-
-%{\color{red} Kari: Jeg lurer på om kapittel 4.1, 4.2, og 4.3 vil være litt overveldende for leseren. Slik jeg leser teksten er det kapittel 4.3 som er det mest "anvendte" i designet av et studieprogram? Jeg er usikker på om vi trenger å gå i detaljer på læringsmålene slik det står i nåværende kapittel 4.3? Bør vi fremheve en anbefaling om at studentene får litt "mengdetrening" i oppgaver der de må løse realistiske, men enkle oppgaver beregningsorientert fysikk?}
-\subsection{Kompetanse i naturvitenskapelige beregninger}
-
-Naturvitenskapelige beregninger betyr å løse vitenskapelige og teknologiske problem ved hjelp av datamaskiner. 
-Med kompetanse i naturvitenskapelige beregninger sikter vi til en samlende kompetanse i det som på engelsk kalles for Computational Science og Data Science\footnote{Vi har valgt henhodsvis {\bf beregningsvitenskap} for det engelske begrepet computational science og {\bf datavitenskap} for det engelske samlebegrepet Data Science.}. For et studium i fysikk vil dette inkludere metoder kopla opp mot analyse av data (behandling av data og statistisk analyse), metoder fra numerisk analyse, analytiske metoder, symbolske beregninger og mer. Slik vi bruker ordet {\bf beregninger} i teksten her inkluderer det dermed metoder fra både beregningsvitenskap og datavitenskap, samt numeriske, symbolske og analytiske beregninger. 
-
-Beregninger er sentrale element i et utdanningsløp i fysikk og legger grunnlaget for en djupere innsikt om ulike fysiske problem og vitenskapelig tenkning. Kompetanse om beregninger består i å identifisere et gitt problem som et spesielt tilfelle av en abstrakt klasse av problemer, å kunne sette opp generelle løsningsmetoder for denne klassen av problemer, og anvende en generell metode for det spesifikke problemet (databehandling, beregninger med penn og papir, symbolsk beregninger, eller numeriske beregninger med ferdiglaget og / eller egenskrevet programvare). Et slikt generisk syn på problemer og metoder er spesielt viktig for
-å kunne forstå hvordan en bruker tilgjengelig, generisk programvare for å løse et gitt problem. Beregningskompetanse  utvider mengden verktøy som er tilgjengelig for studenter og forskere utover klassiske verktøy og gir mulighet for en mer generisk
-håndtering av problemer. 
-
-
-Kompetanse i beregninger inkluderer blant annet:
-
+\section{Behov i fremtidens samfunn: Eksperimentell kompetanse}
+\label{sec:behov-exp}
+I tillegg til de generiske ferdighetene som er beskrevet i \cref{sec:behov} er det flere formål som er spesifikke for laboratorieundervisning i eksperimentelle ferdigheter. Formålet med undervisningen bør være tydelig for studentene i forkant av undervisningen. Mulige formål kan være for eksempel:
 \begin{itemize}
-  \item utledning, verifsering og validering av kjente algoritmer
-  \item en forståelse av en gitt algoritmes begrensninger
-  \item kjennskap til sentrale algoritmer i naturvitenskap
-  \item forstå hvordan ulike algoritmer kan brukes i naturvitenskapelig modellering
-  \item utvikle en algoritmisk tenkning for å tilegne seg en djupere innsikt om naturvitenskapelige og teknologiske problem
-\end{itemize}
-
-%\subsection{Sentrale element i beregningskompetanse}
-%Kompetanse om beregninger er et sentralt element i vitenskapelig problemløsning, fra grunnleggende utdanning og forskning til i det vesentlige nesten alle avanserte problemer i vårt moderne samfunn. 
-
-%Dagens prosjekter innen vitenskap og industri har en tendens til å involvere større team. Verktøy for pålitelig samarbeid må derfor mestres (f.eks. programvare for versjonskontroll, automatiserte dataeksperimenter for reproduserbarhet, programvare og metodedokumentasjon og mye mer).
-
-\iffalse
-\subsection{Læringsutbytter }
-Etter avsluttet studieløp er følgende kompetanser, ferdigheter og kunnskaper sentrale:
-
-\begin{itemize}
-  \item \textbf{Kunnskaper}:
-    \begin{itemize}
-      \item har en djup forståelse for den vitenskapelige metoden og sentrale beregningsmetoder på et avansert nivå, som innebærer at kandidaten
-        \begin{enumerate}
-          \item har evnen til å forstå avanserte vitenskapelige resultat i nye felt
-          \item har kjennskap til sentrale algoritmer i datavitenskap og beregningsvitenskap.
-          \item har en djup forståelse av sentrale numeriske metoder som er brukt i naturvitenskap
-          \item kan utvikle og anvende avanserte numeriske metoder i vitenskapelige og teknologiske problemer
-          \item kan vurdere og analysere alle deler av oppnådde vitenskapelige og teknologiske resultater
-          \item kan presentere skriftlig og muntlig resultatene i form av rapporter og /eller vitenskapelige artikler
-          \item kan foreslå nye hypoteser og løsningsalternativ
-          \item kan generalisere matematiske algoritmer og anvende de på nye vitenkapelige og teknologiske problem
-          \item kan gjøre resultatene reproduserbare  og har kjennskap til sentrale verktøy for versjonskontroll.
-        \end{enumerate}
-
-        \noindent
-      \item har en djup forståelse og kunnskap om vitenskapelig arbeid, som innebærer at kandidaten
-        \begin{enumerate}
-          \item kan utvikle hypoteser og foreslå måter å teste disse
-          \item kan bruke analytiske, numeriske og eksperimentelle metoder og verktøy for å teste vitenskapelige hypoteser
-          \item kan presentere metoden og resultatene i henhold til god vitenskapelig praksis
-        \end{enumerate}
-
-        \noindent
-    \end{itemize}
-
-    \noindent
-  \item \textbf{Ferdigheter}:
-    \begin{itemize}
-      \item har en djup foståelse for hva beregninger betyr og 
-        \begin{enumerate}
-          \item kjenner til sentrale algoritmer i datavitenskap og beregninsgvitenskap og hvordan disse kan implementeres med eksisterende software for å løse vitenskapelige problem
-          \item forstår betydningen av feil fra approksimasjoner og hva som kan gå galt med ulike algoritmer
-          \item kjennskap til computer algebra system og hvordan det kan bukes til klassiske matematiske operasjoner
-          \item har gode ferdigheter i høynivå programmeringsspråk som (Python eller liknende)
-          \item har gode ferdighter i kompilerte programmeringsspråk som feks C++ eller liknende.
-          \item kjenner til verktøy for å analysere og debugge software
-          \item har kjennskap til test rammeverk og prosedyrer
-          \item er i stand til å vurdere resultatene  og mulige feilkilder
-          \item kan utvikle algoritmer og software for kompliserte vitenskapelige og teknologiske problem individuelt og i samarbeid med andre
-          \item kjenner til verktøy for å kunne gjøre resultater reproduserbare
-        \end{enumerate}
-    \end{itemize}
-\end{itemize}
-\fi
-
-\subsection{Sentrale elementer i datavitenskap og beregningsvitenskap}
-Etter avsluttet studieløp vil det være naturlig at studentene har følgende kompetanser, ferdigheter og kunnskaper: 
-\begin{itemize}
- \item Kjennskap til sentrale algoritmer og numeriske metoder i data- og beregningsvitenskap.
- \item Kunnskap om hvordan disse kan implementeres med eksisterende software for å løse vitenskapelige problem.
- \item Evne til å utvikle og anvende avanserte numeriske metoder i vitenskapelige og teknologiske problemer.
- \item Evne til å generalisere matematiske algoritmer og anvende de på nye vitenkapelige og teknologiske problem
-\item Kjennskap til computer algebra system og hvordan det kan bukes til klassiske matematiske operasjoner.
-\item Gode ferdigheter i høynivå programmeringsspråk som (Python eller liknende).
-\item Gode ferdigheter i kompilerte programmeringsspråk som feks C++ eller liknende.
-\end{itemize}
-
-Vi ser for oss at ulike beregningsalgoritmer presenteres og brukes på et systematisk og koherent vis gjennom hele studieløpet, i tett samarbeid med andre institutt. Et synkronisert studieløp letter også introduksjonen og bruken av ulike beregningsmetoder i et gitt fysikkfag. 
-Vi anbefaler at følgende sentrale algoritmer har blitt presentert og diskutert gjennom et studieløp (det er opp til institusjonen å spesifisere de eksplisitte metodene)
-\begin{itemize}
-  \item Sentrale metoder i linjær algebra, fra direkte metoder til iterative
-  \item Sentrale metoder for å løse partielle og ordinære differensiallikninger
-  \item Numerisk integrasjon
-  \item Stokastiske metoder og prosesser, Markov kjeder og Monte Carlo simuleringer 
-  \item Sentrale verktøy i statistisk dataanalyse, med maskinlæringsmetoder som linjær og logistisk regresjon og nevrale nettverk
-  \item Sentral software i high-performance computing 
-  
-  
-
-\end{itemize}
-
-\section{Behov i framtidas samfunn: Eksperimentell kompetanse}
-%\todo{Dag + alle}
-
- I tillegg til de generiske ferdighetene som er beskrevet i kapittel \ref{Behov} er det flere formål som er spesifikke for laboratorieundervisning i eksperimentelle ferdigheter. Formålet med undervisningen bør være tydelig for studentene i forkant av undervisningen. Mulige formål kan være for eksempel:  
- \begin{itemize}
-
-     \item Å lære å designe eksperimenter.
-     \item Å lære måleteknikk eller bruk av spesielle apparaturer eller metoder.
-      \item Å bidra til innlæring av teori som studentene har fått forelest. Labkurs kan brukes for å støtte opp under teoretiske kurs som går parallellt i tid eller ta opp igjen temaer som har vært berørt tidligere i utdanningen.
-     \item Å lære om spesifikke fysiske lover/fenomener som
+  \item Å lære å designe eksperimenter.
+  \item Å lære måleteknikk eller bruk av spesielle apparaturer eller metoder.
+  \item Å bidra til innlæring av teori som studentene har fått forelest. Labkurs kan brukes for å støtte opp under teoretiske kurs som går parallellt i tid eller ta opp igjen temaer som har vært berørt tidligere i utdanningen.
+  \item Å lære om spesifikke fysiske lover/fenomener som
     ikke dekkes i de teoretiske kursene.
-    \item Å erfare egenverdien av eksperimenter. Utviklingen av de fleste vitenskapelige teorier starter med observasjoner/eksperimenter som ikke kan forklares med eksisterende modeller/teori.  
-Det virker avgjørende at studentene forstår hvorfor eksperimenter skal utføres og hvordan disse støtter opp om teori og beregningsktiviteter i ikke bare det aktuelle kurset, men hele fysikkstudiet. Å erfare egenverdien av eksperimenter bidrar også til å bygge eksperimentell intuisjon og evne til å se hvilke erfaringer som kan generaliseres. 
+  \item Å erfare egenverdien av eksperimenter. Utviklingen av de fleste vitenskapelige teorier starter med observasjoner/eksperimenter som ikke kan forklares med eksisterende modeller/teori.
+    Det virker avgjørende at studentene forstår hvorfor eksperimenter skal utføres og hvordan disse støtter opp om teori og beregningsktiviteter i ikke bare det aktuelle kurset, men hele fysikkstudiet. Å erfare egenverdien av eksperimenter bidrar også til å bygge eksperimentell intuisjon og evne til å se hvilke erfaringer som kan generaliseres.
+\end{itemize}
 
- \end{itemize}
- \subsection{Kunnskap om eksperimentdesign}
+\subsection{Kunnskap om eksperimentdesign}
 Et eksperiment bør være designet slik at det er egnet til å teste en gitt hypotese.
 Det må være en protokoll eller plan for eksperimentet.
 Et eksperiment må isolere den eller de egenskapene som vil gjøre det mulig å bekrefte eller avkrefte hypotesen.
 Det kan være vanskelig å designe et eksperiment som tester en gitt hypotese.
 
-Det er nyttig for arbeidsgivere at arbeidstakerne har kunnskap om framgangsmåter som kan brukes for å designe et eksperiment, og at de har noe trening i å designe et eksperiment som gir den nøyaktigheten som er nødvendig for å kunne teste hypotesen. I en jobbsituasjon vil det vanligvis være begrensete ressurser som kan brukes på et eksperiment, f.eks. tid og/eller penger.
+Det er nyttig for arbeidsgivere at arbeidstakerne har kunnskap om framgangsmåter som kan brukes for å designe et eksperiment, og at de har noe trening i å designe et eksperiment som gir den nøyaktigheten som er nødvendig for å kunne teste hypotesen. I en jobbsituasjon vil det vanligvis være begrensede ressurser som kan brukes på et eksperiment, f.eks.~tid og/eller penger.
 Det er nyttig for arbeidsgivere at en arbeidstaker har opplæring i følgende ferdigheter:
 \begin{itemize}
-
   \item Bestemme hvilken nøyaktighet et eksperimentet må ha for å kunne avkrefte eller bekrefte en hypotese med en bestemt grad av sikkerhet.
   \item Diskutere alternative måleteknikker, identifisere hvilke(n) som er egnet, og finne egnet måleutstyr og oppsett.
-  
-    \item Å kunne identifisere kilder til feil i målinger og vite hvordan en kvantifiserer disse. Vurdere antall målinger/replikater som må finnes for å for å ha en akseptabel verdi for tilfeldig feil, beregne feilestimat for de målte verdiene, og vurdere om noen dominerende feilkilder kan/bør minkes.
+  \item Å kunne identifisere kilder til feil i målinger og vite hvordan en kvantifiserer disse. Vurdere antall målinger/replikater som må finnes for å for å ha en akseptabel verdi for tilfeldig feil, beregne feilestimat for de målte verdiene, og vurdere om noen dominerende feilkilder kan/bør minkes.
   \item Å kunne behandle måledata statistisk behandling, og å tilpasse modeller til måledata med støy.
- 
   \item Sørge for at eksperimentoppsettet vil gi gyldige data: at måleutstyr er kalibrert og at oppsettet tilfredsstiller en ``system suitability test'' før det brukes til å samle inn data.
-  \item Bruke automatiserte løsninger for datainnsamling og evt. dataanalyse.
+  \item Bruke automatiserte løsninger for datainnsamling og evt. data-analyse.
   \item Avpasse eksperimentet etter begrensninger på tid og kostnad og ønsket nøyaktighet på resultatet.
-  
 \end{itemize}
 
 \subsection{Kunnskap om vanlig brukte måleteknologier}
-
-
-Også i framtida er det viktig at studentene kan bruke måleinstrumenter og teknikker som er mye brukt i fysikk. I tillegg er det nyttig at studentene er i stand til å sette opp automatisk datainnsamling fra et måleoppsett.
+Også i fremtiden er det viktig at studentene kan bruke måleinstrumenter og teknikker som er mye brukt i fysikk. I tillegg er det nyttig at studentene er i stand til å sette opp automatisk datainnsamling fra et måleoppsett.
 Arbeidsgivere forventer ikke at nylig uteksaminerte studenter har detaljkunnskap om den nyeste teknologien og metodikken innenfor et smalt fagfelt eller bruksområde.
 I næringsliv og anvendt forskning forventes det at alle ansatte har grunnkunnskaper som setter dem i stand til å forstå og anvende ny teknologi og metodikk ettersom den blir tilgjengelig og er til nytte i arbeidsoppgavene som skal utføres.
 Innen akademia forventes det at ansatte i tillegg selv er i stand til å utvikle ny teori, teknologi og/eller metodikk.
 
- Det vil være naturlig at studentene kan måle grunnleggende fysiske størrelser som tid, lengde, masse, kraft, temperatur, strøm og spenning, og at de har prøvd ut forskjellige prinsipper for å måle disse størrelsene. Det er også naturlig at studentene kan noe om den historiske utviklingen av grunnlaget for målenhethene våre (SI-enhetene) og hvilke fysiske prinsipper som i dag definerer enhetene og hvilke målinger som ligger til grunn for sentrale fysiske konstanter.
+Det vil være naturlig at studentene kan måle grunnleggende fysiske størrelser som tid, lengde, masse, kraft, temperatur, strøm og spenning, og at de har prøvd ut forskjellige prinsipper for å måle disse størrelsene. Det er også naturlig at studentene kan noe om den historiske utviklingen av grunnlaget for målenhethene våre (SI-enhetene) og hvilke fysiske prinsipper som i dag definerer enhetene og hvilke målinger som ligger til grunn for sentrale fysiske konstanter.
 
+%\section{Behov i fremtidens samfunn: Integrasjon av beregninger, teori og eksperiment i studieløpet}
 
-%\section{Behov i framtidas samfunn: Integrasjon av beregninger, teori og eksperiment i studieløpet}
-%\todo{Paal + alle}
+\section{Behov i fremtidens samfunn: Digital kompetanse og beregningsorientert fysikk}
+\label{sec:behov-dig}
+I de foregående seksjonene har vi diskutert de generelle behovene og spesifikke behov for eksperimentell kompetanse for fremtidens samfunn. Her vil vi se mer spesifikt på behovene for digital kompetanse og beregningsorientert fysikk.
 
-\section{Bærekraftsperspektiv, behov i framtidas samfunn}
-%\todo{Sverre+alle}
-Norske og internasjonale bedrifters aktiviteter måles i økende grad mot FNs 17 bærekraftsmål for å utrydde fattigdom, bekjempe ulikhet og stoppe klimaendringene innen 2030\cite{FNsustgoals}.
-NTNU har forpliktet seg til å arbeide med bærekraftsmålene gjennom sin visjon \emph{Kunnskap for en bedre verden} og det tematiske satsningsområdet \emph{Bærekraft} \cite{NTNUStrategi,NTNUBaerekraftMaal,NTNUBaerekraft}
+% Gis det tilstrekkelig undervisning i tolkning av storedatasett og/eller artificial intelligence i numerikkfagene? (Kari)
+Kunnskapen om beregningsmetoder, algoritmisk tenkning, data-analyse og generiske verktøy for å bruke slike metoder blir stadig mer etterspurt i næringlivet og i forsking generelt.
+Slik kunnskap er nødvendig for eksempel i prosessen med å samle inn og analysere numeriske data, gjøre simuleringer, operere avanserte, teknisk utstyr, eller det å numerisk løse matematiske likninger.
+Kunnskapen er essensiell f.eks.~innenfor felter som \emph{kunstig intelligens} og \emph{maskinlæring} som mange ser store potensielle muligheter innen.
+Mange bedrifter ønsker å bli mer ``data-drevne'', noe som ofte betyr at såkalt \emph{stordata} blir en del av de utfordringene man må forholde seg til.
+Stordata er betegnelsen på store og ofte \emph{uorganiserte} datasett.
+Lesing og ikke minst analysen av stordatasett gjør ofte at tradisjonelle metoder, som fungerer utmerket for mindre datasett, ikke lenger fungerer på en hensiktsmessig måte.
+Alternative analysemetoder må derfor utvikles for slike forhold.
 
-Norsk Standard inneholder en rekke verktøy som er egnet til å systematisere arbeidet med bærekraftsmålene innen ingeniørfaglige bransjer som f.eks. bygg og anlegg, petroleum, IKT, helse og matproduksjon.
-Noen generelle standarder er oppsummert på Standard Norges web-sider\cite{StandardNorge}.
-Framtidens ledere, forskere og ingeniører må påregne å måtte ha et aktivt forhold til disse.
+I de følgende delseksjoner vil vi se litt nærmere på aspekter rundt naturvitenskapelige beregninger og god kodeutviklingspraksis.
+
+\subsection{Kunnskap om naturvitenskapelige beregninger}
+Vitenskapelige beregninger har som mål å utvikle nøyaktige metoder og modeller som setter oss i stand til å studere komplekse naturvitenskapelige og teknologiske system og fenomen. Mange av disse er såpass komplekse at fysiske eksperiment fort blir for kostbare eller nesten umulige å gjennomføre i et laboratorium. Det blir stadig mer vanlig å erstatte kompliserte eksperimenter med numeriske beregninger. Numeriske beregninger, matematisk modellering, og evne til å behandle og analysere store datasett spiller dermed en sentral rolle i moderne vitenskap og teknologisk utvikling. Digital kompetanse og innsikt samt beregningsferdigheter bør dermed være naturlige elementer i et naturvitenskapelig studieprogram.
+
+Med begrepet \emph{naturvitenskapelige beregninger} mener vi det å løse vitenskapelige og teknologiske problem ved hjelp av datamaskiner.
+Med kompetanse i naturvitenskapelige beregninger sikter vi til en samlende kompetanse i det som på engelsk kalles for ``computational science'' og ``data science''\footnote{Vi har valgt henholdsvis {\bf beregningsvitenskap} for det engelske begrepet ``computational science'' og {\bf datavitenskap} for det engelske samlebegrepet ``data science''.}. For et studium i fysikk vil dette inkludere metoder for analyse av data, slik som behandling av data og statistisk analyse, metoder fra numerisk analyse, analytiske metoder, symbolske beregninger og mer. Slik vi bruker ordet \emph{beregninger} i teksten her inkluderer det dermed metoder fra både beregningsvitenskap og datavitenskap, samt numeriske, symbolske og analytiske beregninger.
+
+Matematisk modellering er ett av kjerneområdene for en fysikker. Det å observere et fysisk fenomen, ofte via eksperimenter, for så å kunne beskrive det via matematiske ligninger som man så løse analytisk og/eller numerisk er kunnskap som gjør mange fysikere ettertraktet i næringlivet. I mange tilfeller ender man opp med hva som idag blir referert til som multifysikk og/eller multiskala problemer. Løsningen av slike problemer er utfordrende og krevende. For eksempel eksisterer det flere veletablerte kommersielle og åpen kildekode numeriske multifysikk-verktøy som studentene kunne ha stor nytte av å bli kjent med. Man kunne for eksempel tenke seg at studentene lærte om et fysisk fenomen ved å studere dette via numeriske eksperimenter gjort via slike multifysikk programvare-pakker.
+
+I dag ser man en trend hvor næringlivet i større og større grad ønsker å benytte mer og mer kompliserte simuleringmodeller. Dette skyldes delvis at det ofte er langt mer kostnadsaffektivt å benytte storskala simuleringer der hvor man tidligere kun hadde muligheter til å gjøre eksperimentelle studier. Mer bruk at store og tidkrevende simuleringer betyr også at behovet for ``high-performance computing''~(HPC)-ressurser og personer som kan bruke og programmere slike vil vokse i fremtiden. Selv en ganske ordinær datamaskin (desktop eller laptop) har idag flere beregningskjerner~(CPU cores), slik at parallelle beregninger kan gjennomføres selv på ganske vanlige datamaskiner.
+
+For å oppsummere, så mener vi at relevant kompetanse innenfor naturvitenskapelige beregninger, samt beregnings- og datavitenskap, inkluderer blant annet:
+\begin{itemize}
+  \item Det å kunne utlede, verifisere og validere kjente algoritmer.
+  \item En forståelse av en gitt algoritmes begrensninger.
+  \item Kjennskap til sentrale algoritmer anvendt i naturvitenskapen.
+  \item Forstå hvordan ulike algoritmer kan brukes i naturvitenskapelig modellering.
+  \item Utvikle en algoritmisk tenkning for å tilegne seg en dypere innsikt om naturvitenskapelige og teknologiske problem.
+  \item Kjennskap til sentrale algoritmer og numeriske metoder i data- og beregningsvitenskap.
+  \item Kunnskap om hvordan disse kan implementeres med eksisterende programvare for å løse vitenskapelige problem.
+  \item Evne til å utvikle og anvende avanserte numeriske metoder i vitenskapelige og teknologiske problemer.
+  \item Evne til å generalisere matematiske algoritmer og anvende de på nye vitenkapelige og teknologiske problem
+  \item Kjennskap til symbolske beregningssystemer, slik som Maple, Mathematica, Python SymPy, og hvordan slike kan bukes til klassiske matematiske operasjoner.
+  \item Gode ferdigheter i høynivå programmeringsspråk som Python eller liknende.
+  \item Gode ferdigheter i kompilerte programmeringsspråk som feks C++ eller liknende.
+\end{itemize}
+
+\subsection{Kunnskap om god kodeutviklingspraksis}
+I et stadig mer digitalisert næringsliv bør studenter være kjent med verktøy for versjonskontroll av kildekode og rutiner for testing (f.eks.~enhetstesting) og godkjenning av ny eller forbedret kode. Hvorvidt studenter bør være kjent med elementer av sikker kodedesign samt tungregning bør vurderes. I distribuerte kodeutviklingsprosjekter (i tid eller rom) bør studentene være kjente med ulike  arbeidsformer som benyttes i industrien, samt metoder for ``automatisk'' dokumentasjon av kode (f.eks.~\verb+doxygen+).
+
+God kodeutviklingspraksis er en norm innenfor mange deler av industrien. I deler av den vitenskaplige forskningen etterstreber man også lignende krav, men i akademia ser man et langt større spenn i kravene slike aspekter. Det er likevel, etter vår mening, essensiell kunnskap. For eksempel, om man har gjennomført en analyse av et målt datasett, er det kritisk viktig å vite eksakt hvilken versjon av analysekoden som ble brukt når analysen ble gjennomført. Hvis det ikke blir gjort vil man i mange tilfeller ikke være istand til å reprodusere de opprinnelige analyseresultatene selv med de samme rådataene. Da mister analysen mye av sin verdi, siden man ikke kan dokumentere hvilke analysesteg som rent faktisk har blitt gjort på rådataene.
+
+Det å kunne gjenbruke og dokumentere programkode er viktig i næringslivet, da andre enn de personene som opprinnelig skrev koden skal kunne bruke den på en riktig måte i fremtiden. På denne måten sikrer også bedriften kontinuerlig og forsvarlig drift selv om sentrale medarbeidere skulle slutte eller bli omplassert i bedriften.
+
+\section{Behov i fremtidens samfunn: Bærekraftsperspektiv}
+\label{sec:behov-bkraft}
+Norske og internasjonale bedrifters aktiviteter måles i økende grad mot FNs 17 bærekraftsmål for å utrydde fattigdom, bekjempe ulikhet og stoppe klimaendringene innen 2030~\cite{FNsustgoals}.
+NTNU har forpliktet seg til å arbeide med bærekraftsmålene gjennom sin visjon \emph{kunnskap for en bedre verden} og det tematiske satsningsområdet \emph{bærekraft}~\cite{NTNUStrategi,NTNUBaerekraftMaal,NTNUBaerekraft}
+
+Norsk Standard~\cite{StandardNorge} inneholder en rekke verktøy som er egnet til å systematisere arbeidet med bærekraftsmålene innen ingeniørfaglige bransjer som f.eks.~bygg og anlegg, petroleum, IKT, helse og matproduksjon.
+Noen generelle standarder er oppsummert på Standard Norges web-sider.
+Fremtidens ledere, forskere og ingeniører må påregne å måtte ha et aktivt forhold til disse.
 Det er hevet over tvil at fysikere vil ha en avgjørende rolle i oppnåelsen av FNs bærekraftsmål.
 
-Der Norsk standard har en naturlig plass i de bransjerettede ingeniørutdanningene, er det uklart hvordan bærekraftsmålene naturlig kan introduseres i fysikkstudiet.
-Som et minimum bør det forventes at bærekraftmålene introduseres og arbeides med i fellesemnene (Ex.phil., Områdeemnet og Eksperter i Team)\cite{NTNUFellesEmner}.
+Der Norsk Standard har en naturlig plass i de bransjerettede ingeniørutdanningene, er det uklart hvordan bærekraftsmålene naturlig kan introduseres i fysikkstudiet.
+Som et minimum bør det forventes at bærekraftmålene introduseres og arbeides med i fellesemnene (Ex.phil., Områdeemnet og Eksperter i Team)~\cite{NTNUFellesEmner}.
 I tillegg kan man se for seg at tematikken kan belyses gjennom prosjektoppgaver og semesteroppgaver i øvrige fag.
 
 \section{Etiske betraktninger}
-%\todo{Morten+alle+Dag}
 Følgende vitenskapsetiske moment kan gjerne implementeres i et studieløp:
 
-%{\color{red} Kari: Jeg har lagt til litt tekst for eksperimentelle data. Dag, kan du se om du er enig? Jeg foreslår å stryke "ved hjelp av moderne software som for eksempel versjonskontroll software" hvis vi tar med tekstforslagene mine som ivaretar eksperimentelle data.}
-
 \begin{itemize}
-  \item {\bf Sikre sporbarhet til og reproduserbarhet av vitenskapelige resultat}. For kode og software: Ved hjelp av versjonskontroll software som {\bf git} og liknende samt lagringsplass via servere som GitHub, GitLab, Bitbucket og andre, er det lett å opprettholde en historikk av vitenskapelige resultat. Her kan en også lagre resultat av bestemte kjøringer og testresultat som letter reproduserbarhet av vitenskapelige resultat. Å gjøre kode og resultat tilgjengelig, med god dokumentasjon, gjør det mulig for andre å teste og kunne reprodusere publiserte resultat. Kunnskap om versjonskontroll software bør være inkludert i studieløpet. For eksperimentelle data gir lagring av datasett i sentrale datalagre (Data repositories) en tilsvarende mulighet for reproduksjon av resultater. Eksempler er the European Open Science Cloud, Harvard Dataverse, og Open Science Framework. For eksperimentelle datasett med sensitive data er Tjeneste for Sikker Datalagring (TSD) utviklet ved UiO en velegnet tjeneste. 
-  \item {\bf Korrekt sitering}. Biblioteksverktøy  av typen Mendeley og andre, gjør det enklere å sitere vitenskapelige arbeider. Studieløpet bør dermed utvikle en god kultur i å sitere andres arbeid når vitenskapelige rapporter ferdigstilles, enten i kurs eller som en endelig avhandling eller prosjektarbeid.
-  \item {\bf Regler ved samarbeid}. Studentene oppfordres til å utvikle samarbeidsprosjekter og jobbe i lag. Å jobbe som et lag er sentrale ferdigheter og evner som er sentrale i et moderne arbeidsliv. Software for vitenskapelig samarbeid og etiske retningslinjer for samarbeid bør integreres i studieløpet. Dette vil spesielt gjelde kurs der prosjektarbeid spiller en sentral rolle.
-  \item {\bf Vitenskapelig juks og plagiering}. Deling av data (se første kulepunkt) kan åpne for plagiering siden mange resultat vil være fritt tilgjengelige. Vitenskapelig juks, som for eksempel fabrikasjon av forskningsdata, kan forekomme på alle akademiske nivåer. Studieløpet bør derfor inneholde en diskusjon om temaer som juks og plagiering og deres følger. Software som {\bf Grammarly} og andre bør integreres i slike diskusjoner. 
-  %{\color{red} Kari: Jeg henger ikke helt med på forskjellen mellom første og siste kulepunkt? Gjentas poenget fra første kulepunkt på nytt i det siste? Jeg tenker at deling av data er positivt og motvirker juks? Åpne data/kode gjør det lettere å reprodusere resultater? Men enig i at åpne data/kode det gjør plagiering lettere. Kan vi skrive poengene i kulepunkt 1 og 4 litt tydeligere? }
+  \item \textbf{Sikre sporbarhet til og reproduserbarhet av vitenskapelige resultat}. For kode og programvare: Ved hjelp av versjonskontrollprogramvare som Git og lignende, samt lagringsplass via tjenester som GitHub, GitLab, Bitbucket og andre, er det lett å opprettholde en historikk av vitenskapelig kodeutvikling. Her kan en også lagre resultat av bestemte kjøringer og testresultat som letter reproduserbarhet av vitenskapelige resultat. Å gjøre kode og resultat tilgjengelig, med god dokumentasjon, gjør det mulig for andre å teste og reprodusere publiserte resultat. Kunnskap om versjonskontrollprogramvare bør være inkludert i studieløpet.
+
+    For eksperimentelle data gir lagring av datasett i sentrale datalagre en tilsvarende mulighet for reproduksjon av resultater. Eksempler på slike lagre er \emph{the European Open Science Cloud}, \emph{Harvard Dataverse} og \emph{Open Science Framework}. For eksperimentelle datasett med sensitive data er \emph{Tjeneste for Sikker Datalagring} (TSD) utviklet ved UiO en velegnet tjeneste.
+  \item \textbf{Korrekt sitering}. Studieløpet bør utvikle en god kultur i å sitere andres arbeid når vitenskapelige rapporter ferdigstilles, enten i kurs eller som en endelig avhandling eller prosjektarbeid. Biblioteksverktøy som Zotero, Mendeley og andre, gjør det enklere å sitere vitenskapelige arbeider og kan potensielt anbefales som verktøy.
+  \item \textbf{Regler ved samarbeid}. Studentene oppfordres til å utvikle samarbeidsprosjekter og jobbe i lag. Å jobbe som et lag er sentrale ferdigheter som er viktige i et moderne arbeidsliv. Programvare for vitenskapelig samarbeid og etiske retningslinjer for samarbeid bør integreres i studieløpet. Dette vil spesielt gjelde kurs der prosjektarbeid spiller en sentral rolle.
+  \item \textbf{Vitenskapelig juks og plagiering}. Deling av data (se første kulepunkt) kan åpne for plagiering siden mange resultat vil være fritt tilgjengelige. Vitenskapelig juks, som for eksempel fabrikasjon av forskningsdata, kan forekomme på alle akademiske nivåer. Studieløpet bør derfor inneholde en diskusjon om temaer som juks og plagiering og deres følger. Programvare som Grammarly og liknende bør integreres i slike diskusjoner.
 \end{itemize}
 
 \section{Sammenlikning med andre læresteder}
-%\todo{Kari + alle}
-Som en del av analysen har vi også vurdert hvordan den eksperimentelle undervisningen og undervisning i numeriske beregninger arter seg sammenlignet med andre læresteder.
+Som en del av analysen har vi også vurdert hvordan den eksperimentelle undervisningen og undervisning i numeriske beregninger arter seg ved NTNU sammenlignet med andre læresteder.
 
 \subsection{Laboratorieundervisning ved EPFL, ETHZ og TUM}
-For å se på hvordan undervisningen i eksperimentelle ferdigheter er organisert ved andre europeiske læresteder, har vi plukket ut tre eksempler. Vi valgte \textbf{École Polytechique Féderale i Lausanne (EPFL)}, \textbf{Eidgenössische Technische Hochschule i Zurich (ETHZ)} og \textbf{Technische Universität München (TUM)}. Disse er alle blant de ti øverste på QS World University Rankings innenfor ``Engineering and Technology'' og har studieløp for bachelor- og mastergrad i fysikk/matematikk~\cite{ETHZprog,EPFLprog,TUMprog} som er sammenliknbare med MTFYMA ved NTNU.
-Vi organiserte videomøter på Zoom med lederne for laboratorieundervisningen ved disse tre europeiske lærestedene. Nedenfor står en oppsummering av diskusjonene i møtene. Et mer detaljert møtereferater finnes i Appendix~\ref{Referat}.
+For å undersøke hvordan undervisningen i eksperimentelle ferdigheter er organisert ved andre europeiske læresteder, valgte vi å ta kontakt med tre utvalgte steder: \emph{École Polytechique Féderale i Lausanne}~(EPFL), \emph{Eidgenössische Technische Hochschule i Zurich} (ETHZ) og \emph{Technische Universität München} (TUM). Disse er alle blant de ti øverste på ``QS World University Rankings'' innenfor ``Engineering and Technology'' og har studieløp for bachelor- og mastergrad i fysikk og matematikk~\cite{ETHZprog,EPFLprog,TUMprog} som er sammenliknbare med MTFYMA ved NTNU.
+Vi organiserte videomøter på Zoom med lederne for laboratorieundervisningen ved disse tre europeiske lærestedene. Nedenfor står en oppsummering av diskusjonene i møtene. Mer detaljerte møtereferater finnes i \cref{Referat}.
 
-Hovedtrekkene i tilbakemeldingene fra de tre europeiske lærestedene var like: de første to studieårene prioriterer de å lære studentene å bruke måleinstrumenter, å skrive rapporter, og å følge god laboratoriepraksis. Laboratorieoppgavene er basert på fysikk som studentene kan godt, og til dels på pensum fra videregående skole. Det å lære ny fysikk er ikke et uttalt mål de første studieårene. Det blir lagt stor vekt på rapportskriving ved alle lærestedene. Studentene jobber i par som skriver 6 – 8 felles rapporter hvert semester. Rapportene skal følge oppsett og retningslinjer for vitenskapelige artikler. Alle rapportene blir rettet av laboratorieassistentene. Ved TUM går en laboratorieassistent nøye gjennom en rapport per semester sammen med studentene. 
+Hovedtrekkene i tilbakemeldingene fra de tre europeiske lærestedene var like: de første to studieårene prioriterer de å lære studentene å bruke måleinstrumenter, å skrive rapporter, og å følge god laboratoriepraksis. Laboratorieoppgavene er basert på fysikk som studentene kan godt, og til dels på pensum fra videregående skole. Det å lære ny fysikk er ikke et uttalt mål de første studieårene. Det blir lagt stor vekt på rapportskriving ved alle lærestedene. Studentene jobber i par som skriver 6 – 8 felles rapporter hvert semester. Rapportene skal følge oppsett og retningslinjer for vitenskapelige artikler. Alle rapportene blir rettet av laboratorieassistentene. Ved TUM går en laboratorieassistent nøye gjennom en rapport per semester sammen med studentene.
 
-Ved alle de tre lærestedene synliggjøres laboratoriearbeid som et selvstendig fag i pensum. Faget blir mer omfattende utover i studiet og gir 4 - 8 ECTS per semester. Ved EPFL gis det karakter i faget mens ETHZ og TUM gir bestått/ikke bestått.  
+Ved alle de tre lærestedene synliggjøres laboratoriearbeid som et selvstendig fag i pensum. Faget blir mer omfattende utover i studiet og gir 4 - 8 ECTS per semester. Ved EPFL gis det karakter i faget mens ETHZ og TUM gir bestått/ikke bestått.
 
 De tre europeiske lærestedene trakk også fram de samme to hovedutfordringene. Den første hovedutfordringen er å gi studentene klasseromsundervisning laboratoriearbeid, for eksempel i rapportskriving, praktisk statistikk, feilanalyse, vitenskapelige siteringer, eller god laboratoriepraksis. Dette ble løst på forskjellige måter: med et eget kurs 4 timer/uke på EPFL, med en forelesning 1 time/uke ved ETHZ, og ved å gi ut kompendier og andre ressurser for selvstudium ved TUM.
 
-Den andre hovedutfordringen er å etablere en sammenheng mellom de teoretiske fysikkforelesningene og laboratorieundervisningen. De tre lærestedene har alle svak kobling mellom tidspunktet for når en teori blir forelest og når den samme teorien eventuelt skal brukes i en laboratorieoppgave. Imidlertid unngår alle lærestedene de første studieårene at studentene skal gjøre laboratorieoppgaver som er basert på teori de ikke allerede har fått forelest. Laboratorieoppgavene baseres på kjent fysikk de første studieårene, slik at oppgavene fremstår som repetisjon av noe som er forelest på videregående skole eller en gang i løpet av forrige semester. Fra tredje studieår kan studentene risikere å få laboratorieoppgaver som baserer seg på fysikk de ikke allerede har fått forelest. Da får studentene "eksperimentmanualer" som beskriver den nødvendige teorien til hver oppgave slik at de får den forståelsen de trenger for å gjennomføre oppgaven og ha utbytte av den. 
+Den andre hovedutfordringen er å etablere en sammenheng mellom de teoretiske fysikkforelesningene og laboratorieundervisningen. De tre lærestedene har alle svak kobling mellom tidspunktet for når en teori blir forelest og når den samme teorien eventuelt skal brukes i en laboratorieoppgave. Imidlertid unngår alle lærestedene de første studieårene at studentene skal gjøre laboratorieoppgaver som er basert på teori de ikke allerede har fått forelest. Laboratorieoppgavene baseres på kjent fysikk de første studieårene, slik at oppgavene fremstår som repetisjon av noe som er forelest på videregående skole eller en gang i løpet av forrige semester. Fra tredje studieår kan studentene risikere å få laboratorieoppgaver som baserer seg på fysikk de ikke allerede har fått forelest. Da får studentene "eksperimentmanualer" som beskriver den nødvendige teorien til hver oppgave slik at de får den forståelsen de trenger for å gjennomføre oppgaven og ha utbytte av den.
 
-Dette betyr også at læringsmålene for laboratorieundervisningen endrer seg noe fra og med tredje studieår. Da blir det lagt mer vekt på at studentene skal lære avansert og ny fysikk gjennom laboratorieundervisningen. Samtidig må rapportene ha høyere kvalitet for at studentene skal bestå laboratoriekurset. Ingen av lærestedene har mange oppgaver som kombinerer eksperimenter og beregningsorientert fysikk pr. i dag, men flere uttrykte ønske om å lage flere slike oppgaver. Ved ETHZ finnes det noen laboratorieoppgaver der det eksperimentelle arbeidet gjøres med simuleringer.
+Dette betyr også at læringsmålene for laboratorieundervisningen endrer seg noe fra og med tredje studieår. Da blir det lagt mer vekt på at studentene skal lære avansert og ny fysikk gjennom laboratorieundervisningen. Samtidig må rapportene ha høyere kvalitet for at studentene skal bestå laboratoriekurset. Ingen av lærestedene har mange oppgaver som kombinerer eksperimenter og beregningsorientert fysikk i dag, men flere uttrykte ønske om å lage flere slike oppgaver. Ved ETHZ finnes det noen laboratorieoppgaver der det eksperimentelle arbeidet gjøres med simuleringer.
 
-\subsection{Computing in Science Education ved Universitetet i Oslo (UiO)} 
+\subsection{Computing in Science Education ved Universitetet i Oslo (UiO)}
+Numeriske beregninger har blitt integrert på et systematisk og helheltig vis ved Universitetet i Oslo siden 2003 via prosjektet \emph{Computing in Science Education} (CSE).
 
-Numeriske beregninger har blitt integrert på et systematisk og helheltig vis ved Universitetet i Oslo siden 2003 via \textbf{Computing in Science Education} (CSE) prosjektet. 
-Alle Bachelorprogrammer ved det Matematisk-Naturvitenskapelige fakultetet ved universitetet i Oslo har flere kurs som integrerer numeriske beregninger. Fysikk og Astronomi programmet er i en særklasse da alle sentrale fysikk kurs i Bachelorgraden har numeriske oppgaver og prosjekter som teller ved endelig evaluering. Introduksjonen av numeriske metoder er integrert på et koordinert vis med grunnleggende matematikk og informatikk (kalkuls, flervariabel analyse, numeriske metoder, linær algebra og programmering) kurs ved UiO. De fleste studentene velger også enten på slutten av Bachelorgraden eller ved begynnelsen av mastergradstudiet et eller flere mer avanserte kurs i Computational Physics (FYS3150/FYS4150) og/eller kurs i numerisk matematikk, statistisk data-analyse og informatikk (FYS-STK3155/FYS-STK4155, STK-IN4300, MAT4110, IN3331, IN3200, IN5270). Computing in Science Education prosjektet har vært og er avgjørende i en gjennomgående digitalisering og introduksjon av programmering og numeriske metoder ved UiO. Senteret for fremragende utdanning ( se \url{https://www.mn.uio.no/ccse/english/}) \textbf{Center for Computing in Science Education} spiller nå en sentral koordinerende rolle i digitalisering av flere studieprogram ved UiO, med det nye Honors-programmet (\url{https://www.uio.no/studier/program/honours-programmet/}) som et eksempel. Senteret har også utvikla over tid et stort forskningsprogram om beregninger og digital kompetanse ved universitets utdanninger. Studentene ved Fysikk og Astronomi programmet ved UiO har fått en gjennomgående introduksjon til betydningen av numeriske simuleringer og sentrale algoritmer i datavitenskap og beregningsvitenskap. Læringsutbyttene som er beskrevet i avsnitt \ref{sec:beregninger} er implementert på et gjennomgående og koordinert vis.
+Alle Bachelorprogrammer ved det Matematisk-Naturvitenskapelige fakultetet ved universitetet i Oslo har flere kurs som integrerer numeriske beregninger. ``Fysikk og Astronomi''-programmet er i en særklasse, da alle sentrale fysikkurs i Bachelorgraden har numeriske oppgaver og prosjekter som teller ved endelig evaluering. Introduksjonen av numeriske metoder er integrert på et koordinert vis med grunnleggende matematikk- og informatikkurs ved UiO (kalkulus, flervariabel analyse, numeriske metoder, linær algebra og programmering). De fleste studentene velger også, enten på slutten av Bachelorgraden eller ved begynnelsen av mastergradstudiet, et eller flere mer avanserte kurs i beregningsfysikk (FYS3150/FYS4150) og/eller kurs i numerisk matematikk, statistisk data-analyse og informatikk (FYS-STK3155/FYS-STK4155, STK-IN4300, MAT4110, IN3331, IN3200, IN5270).
 
-Fra og med høsten 2022 vil Fysikk og Astronomi (FA) Bachelorprogrammet ved UiO gjennomgå en større revisjon med 
-en systematisk integrasjon av teori, eksperiment og beregninger.
-For et eksperimentelt fag som fysikk, åpner det seg også mange nye pedagogiske muligheter i integrasjonen av numeriske beregninger, dataanalyse og eksperiment. Mange eksperiment kan nå gjennomføres ved hjelp av f.eks.\ enkle applikasjoner i smarttelefoner~\cite{phyphox} og enkle apparat som Arduino~\cite{arduino}. Dette åpner for en tettere integrasjon av beregninger, teori, dataanalyse og eksperiment i utdanningsløpet. På sikt muliggjør dette en dypere forståelse av fysikkfagets egenart og den vitenskapelige metode på et tidligere stadium i studieløpet.  Første studieår ved FA-programmet ved UiO vil nå inkludere to kurs i mekanikk, et grunnleggende i første som også introduserer sentrale numeriske metoder brukt i fysiske fag samt eksperiment som kan utføres ved hjelp av enkle måleeksperiment. Integrasjonen av teori, eksperiment og numeriske metoder blir videreført i andre semester med et kurs i statistikk, sannsylighetslære og statistisk data-analyse for fysikere samt et mer avansert kurs i mekanikk.
-Læringsmål og kursinnhold er nærmere beskrevet her \url{https://mhjensen.github.io/FirstYearPhysicsUiO/doc/pub/proposal/html/proposal-bs.html}.
-Grunnalaget fra første studieår i integrasjonen av teori, beregninger og eksperiment er tenkt videreført til senere studieår. 
+CSE-prosjektet har vært og er avgjørende i en gjennomgående digitalisering og ved introduksjon av programmering og numeriske metoder ved UiO. Senteret for fremragende utdanning \emph{Center for Computing in Science Education}~\cite{UiOCCSE} spiller nå en sentral koordinerende rolle i digitalisering av flere studieprogram ved UiO, med det nye Honors-programmet som et eksempel (\url{https://www.uio.no/studier/program/honours-programmet/}). Senteret har også utviklet over tid et stort forskningsprogram om beregninger og digital kompetanse ved universitets utdanninger. Studentene ved ``Fysikk og Astronomi''-programmet ved UiO har fått en gjennomgående introduksjon til betydningen av numeriske simuleringer og sentrale algoritmer i datavitenskap og beregningsvitenskap.
 
+Fra og med høsten 2022 vil Bachelorprogrammet ``Fysikk og Astronomi'' (FA) ved UiO gjennomgå en større revisjon med en systematisk integrasjon av teori, eksperiment og beregninger.
+For et eksperimentelt fag som fysikk, åpner det seg også mange nye pedagogiske muligheter i integrasjonen av numeriske beregninger, data-analyse og eksperiment. Mange eksperiment kan nå gjennomføres ved hjelp av f.eks.~enkle applikasjoner i smarttelefoner~\cite{phyphox} og enkle apparater som Arduino~\cite{arduino}. Dette åpner for en tettere integrasjon av beregninger, teori, data-analyse og eksperiment i utdanningsløpet. På sikt muliggjør dette en dypere forståelse av fysikkfagets egenart og den vitenskapelige metode på et tidligere stadium i studieløpet.  Første studieår ved FA-programmet ved UiO vil nå inkludere to kurs i mekanikk, et grunnleggende i første semester som også introduserer sentrale numeriske metoder brukt i fysiske fag samt eksperiment som kan utføres ved hjelp av enkle måleeksperiment. Integrasjonen av teori, eksperiment og numeriske metoder blir videreført i andre semester med et kurs i statistikk, sannsylighetslære og statistisk data-analyse for fysikere samt et mer avansert kurs i mekanikk.
+Læringsmål og kursinnhold er nærmere beskrevet her: \url{https://mhjensen.github.io/FirstYearPhysicsUiO/doc/pub/proposal/html/proposal-bs.html}.
+Grunnlaget fra første studieår i integrasjonen av teori, beregninger og eksperiment er tenkt videreført til senere studieår.
 
-
-%\section{Studentenes opplevelse av nåværende undervisningsopplegg}
-%\todo{Alle}
 \section{Anbefalinger}
+Den eksterne arbeidsgruppen ser noen mulige gap mellom innholdet i det nåværende undervisningsopplegget (\cref{Sammenlikning}) og behovene til samfunnet og arbeidsgivere nå og i fremtiden (\cref{sec:behov,sec:behov-exp,sec:behov-dig,sec:behov-bkraft}). Det følgende er en liste med mer konkrete anbefalinger basert på arbeidsgruppens analyse.
 
-Den eksterne arbeidsgruppen ser noen mulige gap mellom innholdet i det nåværende undervisningsopplegget (\cref{Sammenlikning}) og behovene til samfunnet og arbeidsgivere nå og i fremtiden (\cref{Behov}). Arbeidsgruppen anbefaler at ledelsen for studieprogrammene ser nærmere på noen aspekter ved undervisningen i eksperimentelle ferdigheter.
-
-\begin{itemize}
-
-\item Hovedhensikten ved laboratorieundervisningen kan synes noe uklart formulert. Arbeidsgruppen foreslår en gjennomgang og prioritering av hensiktene med undervisningen. Mulige hensikter inkluderer f.eks. å støtte innlæringen av det teoretiske undervisningen, å undervise fysikk som ikke blir forelest, å undervise i måleteknikk og måleusikkerhet, å trene på praktisk bruk av måleinstrumenter, å trene på kommunikasjon av eksperimentelle resultater, å utvikle studentenes evne til samarbeid, å gi studentene mulighet til å se egenverdien av eksperimenter, og å vise at fysikk er et eksperimentelt fag. Det finnes også andre mulige hensikter med undervisningen. Det kan være vanskelig å oppnå alle hensiktene slik at det kan være nødvendig å prioritere noen hensikter foran andre. Det ser ut til å være en del nyere litteratur om i hvilken grad labaoratorieundervisning ser ut til å være egnet for å oppnå forskjellige hensikter. For eksempel viser Holmes og Wiemann \cite{Holmes} at tradisjonell laboratorieundervisning ser ut til å ha neglisjerbar støtteeffekt for innlæring av den teoretiske undervisningen. 
-
-\item Arbeidsgruppen foreslår en gjennomgang av de eksisterende eksisterende laboratorieoppgavene for å evaluere i hvilken grad de støtter hensikten med undervisningen og benytter et egnet pedagogisk opplegg. En slik gjennomgang ville forutsette at det er etablert en prioritering av hensikter med laboratorieundervisningen. Litteratur om hva slags pedagogisk opplegg som er egnet til å oppnå de forskjellige hensiktene kan være en støtte i en slik gjennomgang. Etter arbeidsgruppens oppfatning tyder litteraturen på at opplegg der studentene skal gjennomføre et eksperiment på et ferdig oppsett ved å følge en  eksperimentmanual har lite læringsutbytte sammenliknet med andre pedagogiske opplegg.  
-
-\item Arbeidsgruppen anbefaler at det vurderes å styrke studentenes trening i å skrive vitenskapelige rapporter, både med tanke på antall rapporter og tilbakemelding på rapportene som skrives. Etter arbeidsgruppens syn ville det være nyttig for studentene å bli presentert for strukturen i en vitenskapelig rapport samtidig som de skal gjennomføre eksperimenter. Strukturen og krav til en vitenskapelig rapport kan gjerne presenteres gjennom utdrag fra eksisterende bøker eller artikler. Det vil også være nyttig for studentene å få tilbakemelding på sine skriftlige rapporter, slik at de forstår i hvilken grad rapportene de skriver oppfyller kravene til en vitenskapelig rapport. Det ville være nyttig for studentene at det gis konsistent tilbakemelding på rapportene uavhengig av hvilken faglærer som gir den teoretiske undervisningen. Etter arbeidsgruppens syn kan det være nyttig for studentene å få et eksplisitt formulert forskningsspørsmål for det aktuelle eksperimentet når studentene skal lære seg å skrive vitenskapelig rapport. 
-
- \item Arbeidsgruppen anbefaler at det vurderes å gi studentene kjennskap til eksterne ressurser om oppdaterte retningslinjer for god dokumentasjonspraksis (GDP) og god laboratoriepraksis GLP). En videre anbefaling er å gi studentene kjennskap til vanlige verktøy for versjonskontroll og dokumentasjon av kode. Det kan også vurderes å gi studentene en innføring i rådende praksis for journalbruk og journalføring, slik journaler er vanlig brukt i arbeidslivet i dag. Etter arbeidsgruppens syn vil det være nyttig for studentene om denne kunnskapen anvendes på en konsistent måte gjennom alle laboratoriekursene, uavhengig av hvilken faglærer som gir den teoretiske undervisningen.
- 
- \item Arbeidsgruppen anbefaler at det vurderes å integrere beregningsorientert fysikk og eksperimentelt rettet fysikk i større grad enn i det nåværende undervisningsopplegget. Det kan vurderes å etablere laboratorieoppgaver der bruk av beregningsalgoritmer og simuleringer inngår som to av flere verktøy som kan brukes for å løse en oppgave, på linje med andre måleinstrumenter. Det kan også vurderes å etablere laboratorieoppgaver der numeriske beregninger eller simuleringer brukes som et verktøy for å optimalisere et fysisk måleoppsett. 
- 
- \item Arbeidsgruppen anbefaler at det vurderes å gi laboratoriekursene egne ECTS eller liknende kreditering, slik som det gjøres ved de utenlandske lærestedene som gruppen har vært i kontakt med. En selvstendig kreditering av laboratoriearbeidet kan bidra til å synliggjøre hvor viktig dette arbeidet er, og vil gi en indikasjon på hvor stor arbeidsinnsats det er forventet av studentene skal legge i kursene.
- 
-\item Arbeidsgruppen anbefaler at det vurderes å gjennomføre noen laboratorieoppgaver og/eller vitenskapelige rapporter som individuelt arbeid. Etter arbeidsgruppens syn kan individuelt arbeid forberede studentene på den grad av selvstendighet som de kan forvente å møte i arbeidslivet.
-
-\item Det er arbeidsgruppens oppfatning at det nåværende undervisningsopplegget i liten grad inkluderer elementer av eksperimentdesign og protokollskriving i laboratorieoppgavene. Arbeidsgruppen anbefaler at det vurderes muligheten for å inkludere noen slike elementer i allerede eksisterende laboratorieoppgaver. Noen mulige aktuelle elementer er beskrevet i listen nedenfor: 
-%Aktuelle elementer kan være f.eks. å vurdere ulike alternative eksperimentoppsett med tanke på nøyaktighet, tidsbruk og kostnader, forhåndsberegning av måleusikkerhet, å se om det er spesielt måleutstyr som avgjøre den totale måleusikkerheten, å fastsette antall replikater som er nødvendig for å oppnå den ønskede nøyaktigheten, og å vurdere behovet for kalibrering av instrumenter og bruk av ``system suitability tests'' i et eksperimentelt oppsett.
+\todo{Vi burde vurdere å strukturere det følgende noe mer.}
 
 \begin{itemize}
-  \item På forhånd bestemme hvilken nøyaktighet måleresultatet må ha for at resultatet skal ha verdi. Eksempel: hvor nøyaktig må eksperimentet ``bestemme vekt på koffert'' være for at en er sikker på å ikke måtte betale for overvektig bagasje på flyet.
-  \item Vurdere alternativer for eksperimentelle metoder: hvilke kan og hvilke kan ikke gi den nødvendige nøyaktigheten i målingene. Eksempler: må dimensjoner måles med mikrometerskrue eller linjal? Hvor mange desimaler må en vektmåling ha? Hvilken spesifikasjon må en trykkmåler ha for å kunne bestemme høyden på Nidarosdomen med usikkerhet $\pm\SI{1}{\meter}$? Feilanalyse er tema flere ganger i MTFYMA: i \cite{Persson2020}, i Cavendish’ eksperiment i FY1001, i oppgaven om overflatespenning i TFY4163, i oppgaven om Einsteintemperatur i TFY4165, og i oppgaven om røntgendiffraksjon i TFY4220. I laboratorieoppgavene gjøres imidlertid feilanalysen etter at eksperimentet er gjort. I arbeidslivet vil det være naturlig å vurdere nøyaktighet i eksperimentet på forhånd for å kunne avgjøre om den eksperimentelle metoden kan brukes eller ikke.
-  \item Sammenlikne ressursbruk ved alternative eksperimentelle metoder: hvor mye tid og penger trengs for å gjennomføre eksperimentet?
-  \item Bestemme det nødvendige antall paralleller/replikater som må gjøres av et eksperiment for å få størrelsen på tilfeldig feil til å bli ``lav nok'' og bestemme hva som er ``lavt nok''.
-  \item Finne om det er én verdi i et beregnet uttrykk som dominerer usikkerheten i måleresultatet. Vurdere om det er et annet måleutstyr som bør skiftes ut for å bedre nøyaktigheten. Eksempel: en mer nøyaktig vekt, en sensor med høyere oppløsning.
-  \item Se effekten av å bruke kalibrerte måleinstrumenter og mulig konsekvens av ikke-kalibrerte måleinstrumenter. Ingen av laboratorieoppgavene gir en demonstrasjon av mulig konsekvens av å bruke ikke-kalibrerte måleinstrumenter, selv om flere oppgaver nevner at måleutstyret er kalibrert.
-  \item Se effekten av å gjennomføre en ``system suitability test'', f.eks. å se at spekteret til en kjent prøve er innenfor fastsatte krav før utstyret brukes til å måle en ukjent prøve, eller måle en kjent vektstandard før en ukjent prøve.  En ``system suitability test'' gjøres med silisiumpulver i røntgendiffraksjonsoppgaven i TFY4220. Oppgaven om Einsteintemperaturen til aluminium i TFY4165 nevner behovet for vatring og tarering av vekt. Det kan vurderes om konseptet ``System suitability test'' bør introduseres i et tidligere årskurs slik at alle studentene på MTFYMA blir kjent med det.
-\end{itemize}
-\end{itemize}
+  \item Hovedhensikten ved laboratorieundervisningen kan synes noe uklart formulert. Arbeidsgruppen foreslår en gjennomgang og prioritering av hensiktene med undervisningen. Mulige hensikter inkluderer f.eks.~å støtte innlæringen av den teoretiske undervisningen, å undervise fysikk som ikke blir forelest, å undervise i måleteknikk og måleusikkerhet, å trene på praktisk bruk av måleinstrumenter, å trene på kommunikasjon av eksperimentelle resultater, å utvikle studentenes evne til samarbeid, å gi studentene mulighet til å se egenverdien av eksperimenter, og å vise at fysikk er et eksperimentelt fag. Det finnes også andre mulige hensikter med undervisningen. Det kan være vanskelig å oppnå alle hensiktene slik at det kan være nødvendig å prioritere noen hensikter foran andre. Det ser ut til å være en del nyere litteratur om i hvilken grad labaoratorieundervisning ser ut til å være egnet for å oppnå forskjellige hensikter. For eksempel viser \citet{Holmes} at tradisjonell laboratorieundervisning ser ut til å ha neglisjerbar støtteeffekt for innlæring av den teoretiske undervisningen.
+   
+  \item Arbeidsgruppen foreslår en gjennomgang av de eksisterende laboratorieoppgavene for å evaluere i hvilken grad de støtter hensikten med undervisningen og benytter et egnet pedagogisk opplegg. En slik gjennomgang ville forutsette at det er etablert en prioritering av hensikter med laboratorieundervisningen. Litteratur om hva slags pedagogisk opplegg som er egnet til å oppnå de forskjellige hensiktene kan være en støtte i en slik gjennomgang. Etter arbeidsgruppens oppfatning tyder litteraturen på at opplegg der studentene skal gjennomføre et eksperiment på et ferdig oppsett ved å følge en eksperimentmanual har lite læringsutbytte sammenliknet med andre pedagogiske opplegg.
 
+  \item Arbeidsgruppen anbefaler at det vurderes å styrke studentenes trening i å skrive vitenskapelige rapporter, både med tanke på antall rapporter og tilbakemelding på rapportene som skrives. Etter arbeidsgruppens syn ville det være nyttig for studentene å bli presentert for strukturen i en vitenskapelig rapport samtidig som de skal gjennomføre eksperimenter. Strukturen og krav til en vitenskapelig rapport kan gjerne presenteres gjennom utdrag fra eksisterende bøker eller artikler. Det vil også være nyttig for studentene å få tilbakemelding på sine skriftlige rapporter, slik at de forstår i hvilken grad rapportene de skriver oppfyller kravene til en vitenskapelig rapport. Det ville være nyttig for studentene at det gis konsistent tilbakemelding på rapportene uavhengig av hvilken faglærer som gir den teoretiske undervisningen. Etter arbeidsgruppens syn kan det være nyttig for studentene å få et eksplisitt formulert forskningsspørsmål for det aktuelle eksperimentet når studentene skal lære seg å skrive vitenskapelig rapport.
+
+  \item Arbeidsgruppen anbefaler at det vurderes å gi studentene kjennskap til eksterne ressurser om oppdaterte retningslinjer for god dokumentasjonspraksis (GDP) og god laboratoriepraksis GLP). En videre anbefaling er å gi studentene kjennskap til vanlige verktøy for versjonskontroll og dokumentasjon av kode. Det kan også vurderes å gi studentene en innføring i rådende praksis for journalbruk og journalføring, slik journaler er vanlig brukt i arbeidslivet i dag. Etter arbeidsgruppens syn vil det være nyttig for studentene om denne kunnskapen anvendes på en konsistent måte gjennom alle laboratoriekursene, uavhengig av hvilken faglærer som gir den teoretiske undervisningen.
+
+  \item Arbeidsgruppen anbefaler at det vurderes å integrere beregningsorientert fysikk og eksperimentelt rettet fysikk i større grad enn i det nåværende undervisningsopplegget. Det kan vurderes å etablere laboratorieoppgaver der bruk av beregningsalgoritmer og simuleringer inngår som to av flere verktøy som kan brukes for å løse en oppgave, på linje med andre måleinstrumenter. Det kan også vurderes å etablere laboratorieoppgaver der numeriske beregninger eller simuleringer brukes som et verktøy for å optimalisere et fysisk måleoppsett.
+
+  \item Arbeidsgruppen anbefaler at det vurderes å gi laboratoriekursene egne ECTS eller liknende kreditering, slik som det gjøres ved de utenlandske lærestedene som gruppen har vært i kontakt med. En selvstendig kreditering av laboratoriearbeidet kan bidra til å synliggjøre hvor viktig dette arbeidet er, og vil gi en indikasjon på hvor stor arbeidsinnsats det er forventet av studentene skal legge i kursene.
+
+  \item Arbeidsgruppen anbefaler at det vurderes å gjennomføre noen laboratorieoppgaver og/eller vitenskapelige rapporter som individuelt arbeid. Etter arbeidsgruppens syn kan individuelt arbeid forberede studentene på den grad av selvstendighet som de kan forvente å møte i arbeidslivet.
+
+  \item Det er arbeidsgruppens oppfatning at det nåværende undervisningsopplegget i liten grad inkluderer elementer av eksperimentdesign og protokollskriving i laboratorieoppgavene. Arbeidsgruppen anbefaler at det vurderes muligheten for å inkludere noen slike elementer i allerede eksisterende laboratorieoppgaver. Noen mulige aktuelle elementer er beskrevet i listen nedenfor:
+    
+    \begin{itemize}
+      \item På forhånd bestemme hvilken nøyaktighet måleresultatet må ha for at resultatet skal ha verdi. Eksempel: hvor nøyaktig må eksperimentet ``bestemme vekt på koffert'' være for at en er sikker på å ikke måtte betale for overvektig bagasje på flyet.
+      \item Vurdere alternativer for eksperimentelle metoder: hvilke kan og hvilke kan ikke gi den nødvendige nøyaktigheten i målingene. Eksempler: må dimensjoner måles med mikrometerskrue eller linjal? Hvor mange desimaler må en vektmåling ha? Hvilken spesifikasjon må en trykkmåler ha for å kunne bestemme høyden på Nidarosdomen med usikkerhet $\pm\SI{1}{\meter}$? Feilanalyse er tema flere ganger i MTFYMA: i \cite{Persson2020}, i Cavendish’ eksperiment i FY1001, i oppgaven om overflatespenning i TFY4163, i oppgaven om Einsteintemperatur i TFY4165, og i oppgaven om røntgendiffraksjon i TFY4220. I laboratorieoppgavene gjøres imidlertid feilanalysen etter at eksperimentet er gjort. I arbeidslivet vil det være naturlig å vurdere nøyaktighet i eksperimentet på forhånd for å kunne avgjøre om den eksperimentelle metoden kan brukes eller ikke.
+      \item Sammenlikne ressursbruk ved alternative eksperimentelle metoder: hvor mye tid og penger trengs for å gjennomføre eksperimentet?
+      \item Bestemme det nødvendige antall paralleller/replikater som må gjøres av et eksperiment for å få størrelsen på tilfeldig feil til å bli ``lav nok'' og bestemme hva som er ``lavt nok''.
+      \item Finne om det er én verdi i et beregnet uttrykk som dominerer usikkerheten i måleresultatet. Vurdere om det er et annet måleutstyr som bør skiftes ut for å bedre nøyaktigheten. Eksempel: en mer nøyaktig vekt, en sensor med høyere oppløsning.
+      \item Se effekten av å bruke kalibrerte måleinstrumenter og mulig konsekvens av ikke-kalibrerte måleinstrumenter. Ingen av laboratorieoppgavene gir en demonstrasjon av mulig konsekvens av å bruke ikke-kalibrerte måleinstrumenter, selv om flere oppgaver nevner at måleutstyret er kalibrert.
+      \item Se effekten av å gjennomføre en ``system suitability test'', f.eks.~å se at spekteret til en kjent prøve er innenfor fastsatte krav før utstyret brukes til å måle en ukjent prøve, eller måle en kjent vektstandard før en ukjent prøve.  En ``system suitability test'' gjøres med silisiumpulver i røntgendiffraksjonsoppgaven i TFY4220. Oppgaven om Einsteintemperaturen til aluminium i TFY4165 nevner behovet for vatring og tarering av vekt. Det kan vurderes om konseptet ``System suitability test'' bør introduseres i et tidligere årskurs slik at alle studentene på MTFYMA blir kjent med det.
+    \end{itemize}
+  \item Arbeidsgruppen anbefaler at ulike beregningsalgoritmer presenteres og brukes på et systematisk og koherent vis gjennom hele studieløpet, gjerne i tett samarbeid med andre institutt. Et synkronisert studieløp letter også introduksjonen og bruken av ulike beregningsmetoder i et gitt fysikkfag.
+  \item Arbeidsgruppen anbefaler at det legges inn økt fokus på god kodeutviklingspraksis, for eksempel ved bruk av versjonskontrollprogramvare.
+
+    \todo{Vi trenger flere anbefalinger relatert de beregningsorienterte elementene}
+\end{itemize}
 
 \appendix
-\section{Referat fra møter med EPFL, ETHZ og TUM}\label{Referat}
-
+\section{Referat fra møter med EPFL, ETHZ og TUM}
+\label{Referat}
 Deltakerne på og tidspunktene for møtene står i listen nedenfor.
 \begin{itemize}
-  \item TUM: Andreas Hauptner og Martin Sass, Paal Skjetne, Dag Dysthe, Magnus Lilledahl, Ingve Simonsen, Jonas Persson, Kari Schjølberg-Henriksen, avholdt 20. november 2020. 
-  \item ETHZ: Alexander Eichler, Andreas Eggenberger og Martin Kroner, Paal Skjetne, Dag Dysthe, Sverre Johnsen, Magnus Lilledahl, Ingve Simonsen, Jonas Persson, Kari Schjølberg-Henriksen, avholdt 20. november 2020. 
-  \item EPFL: Daniele Mari, Ingve Simonsen, Kari Schjølberg-Henriksen, avholdt 23. november 2020. 
+  \item TUM: Andreas Hauptner og Martin Sass, Paal Skjetne, Dag Dysthe, Magnus Lilledahl, Ingve Simonsen, Jonas Persson, Kari Schjølberg-Henriksen, avholdt 20. november 2020.
+  \item ETHZ: Alexander Eichler, Andreas Eggenberger og Martin Kroner, Paal Skjetne, Dag Dysthe, Sverre Johnsen, Magnus Lilledahl, Ingve Simonsen, Jonas Persson, Kari Schjølberg-Henriksen, avholdt 20. november 2020.
+  \item EPFL: Daniele Mari, Ingve Simonsen, Kari Schjølberg-Henriksen, avholdt 23. november 2020.
 \end{itemize}
 
-Ved ETHZ er det 155 studenter i 3. semester og 140 studenter i 5. semester. Ved TUM er det 200 studenter på backelornivå og 200 på masternivå, altså ca 130 grupper som skal ha laboratorieundervisning. Ved EPFL er det 120 studenter i 2. årskurs, 90 studenter i 3. årskurs, og 80 studenter på masternivå. 
+Ved ETHZ er det 155 studenter i 3.~semester og 140 studenter i 5.~semester. Ved TUM er det 200 studenter på backelornivå og 200 på masternivå, altså ca 130 grupper som skal ha laboratorieundervisning. Ved EPFL er det 120 studenter i 2.~årskurs, 90 studenter i 3.~årskurs, og 80 studenter på masternivå.
 
 \subsection{Læringsmål for laboratorieundervisningen}
-Laboratorielederne ved alle de tre lærestedene understreket at det viktigste læringsmålet med laboratorieundervisningen er å mestre laboratoriearbeid. Dette innebærer evne til å velge mellom og bruke forskjellige måleinstrumenter, se fordeler og ulemper ved forskjellige eksperimentelle oppsett, kunnskap om kalibrering, skrive protokoll, innehnte data, og skrive rapport. Hovedmålet med undervisningen er at studentene skal få kunnskaper som setter dem i stand til å gjøre egne eksperimenter senere. 
+Laboratorielederne ved alle de tre lærestedene understreket at det viktigste læringsmålet med laboratorieundervisningen er å mestre laboratoriearbeid. Dette innebærer evne til å velge mellom og bruke forskjellige måleinstrumenter, se fordeler og ulemper ved forskjellige eksperimentelle oppsett, kunnskap om kalibrering, skrive protokoll, innehnte data, og skrive rapport. Hovedmålet med undervisningen er at studentene skal få kunnskaper som setter dem i stand til å gjøre egne eksperimenter senere.
 
-I de første 3 – 4 semestrene er det ikke et mål at studentene skal lære ny fysikk gjennom laboratorieundervisningen. Ved ETHZ og EPFL bygger eksperimentene på fysikk som er godt kjent for studentene, og til dels på fysikk de lærte på videregående skole. Ved TUM er det et mål med undervisningen å repetere fysikken som ble undervist forrige semester. De eksperimentelle temaene er forskjøvet slik at eksperimentene i mekanikk gjennomføres semesteret etter at emnet ble forelest. 
-Læringsmålene endrer seg fra ca. 5. semester ved alle lærestedene. Da det blir et uttalt mål også å lære ny fysikk gjennom eksperimentelt arbeid og også et mål å bli kjent med forskjellige fagfelt innenfor fysikken. 
+I de første 3--4 semestrene er det ikke et mål at studentene skal lære ny fysikk gjennom laboratorieundervisningen. Ved ETHZ og EPFL bygger eksperimentene på fysikk som er godt kjent for studentene, og til dels på fysikk de lærte på videregående skole. Ved TUM er det et mål med undervisningen å repetere fysikken som ble undervist forrige semester. De eksperimentelle temaene er forskjøvet slik at eksperimentene i mekanikk gjennomføres semesteret etter at emnet ble forelest.
+Læringsmålene endrer seg fra ca.~5.~semester ved alle lærestedene. Da det blir et uttalt mål også å lære ny fysikk gjennom eksperimentelt arbeid og også et mål å bli kjent med forskjellige fagfelt innenfor fysikken.
 
 \subsection{Struktur på den teoretiske fysikkundervisningen}
-Fysikkundervisningen er lagt opp litt forskjellig ved de tre lærestedene. Ved EPFL og ETHZ undervises det et kurs i faget «Fysikk». Dette kurset går over flere semestre, og dekker mekanikk, termisk fysikk, bølgefysikk, elektrisitetslære, magnetisme, og relativitetsteori. Ved EPFL inngår fluidmekanikk også i kurset «Fysikk», mens ved ETHZ inngår kvantemekanikk og atom- og kjernefysikk. Ved TUM er studiet lagt opp på en måte som likner mer på NTNU sitt studieprogram, med egne kurs i forskjellige fysikkfagene som f.eks. mekanikk, elektromagnetisme, termodynamikk, elektrodynamikk, optikk og atomfysikk. 
+Fysikkundervisningen er lagt opp litt forskjellig ved de tre lærestedene. Ved EPFL og ETHZ undervises det et kurs i faget ``Fysikk''. Dette kurset går over flere semestre, og dekker mekanikk, termisk fysikk, bølgefysikk, elektrisitetslære, magnetisme, og relativitetsteori. Ved EPFL inngår fluidmekanikk også i kurset ``Fysikk'', mens ved ETHZ inngår kvantemekanikk og atom- og kjernefysikk. Ved TUM er studiet lagt opp på en måte som likner mer på NTNU sitt studieprogram, med egne kurs i forskjellige fysikkfagene som f.eks.~mekanikk, elektromagnetisme, termodynamikk, elektrodynamikk, optikk og atomfysikk.
 
 \subsection{Struktur og omfang av laboratorieundervisningen}
 
 \subsubsection{Forelesninger i laboratoriearbeid}\label{forel_lab}
-Det er stor variasjon mellom lærestedene i hvor mye forelesninger studentene får om laboratoriearbeid. 
-Ved EPFL gis det forelesninger hele 2. semester. Forelesningene handler om vitenskapelig metode, god laboratoriepraksis, datainnsamling, og gir en introduksjon til feilanalyse i praksis og formelverk for dette. I parallell med forelesningene skal studentene gjennomføre en praktisk oppgave der de skal bygge sitt eget vakuumkammer med oppsett for å måle motstand. 
-Ved ETHZ gis det forelesning 1 time pr uke parallelt med hele labundervisningen. Forelesningen behandler dataanalyse, rapportskriving, en introduksjon til Latex, grunnleggende praktisk statistikk og regresjonsanalyse. Studentene må bestå et separat kurs i HMS før de får tilgang til laboratoriet. 
-Ved TUM gis det kun én time forelesning. Den gis i første semester og handler om anvendt statistikk til bruk i analyse av eksperimentelle data. Imidlertid får studentene skriftlig læremateriell som de bruker gjennom hele laboratorieundervisningen. De får et hefte om dagens praksis av god laboratoriepraksis og god dokumentasjonspraksis. Dette heftet inneholder tips til videre litteratur. De får også et hefte om anvendt statistikk og feilanalyse, og et hefte om rapportskriving og en introduksjon til strukturen i en vitenskapelig artikkel. Studentene må ta et nettbasert HMS-kurs før de får tilgang til laboratoriet. 
+Det er stor variasjon mellom lærestedene i hvor mye forelesninger studentene får om laboratoriearbeid.
+Ved EPFL gis det forelesninger hele 2.~semester. Forelesningene handler om vitenskapelig metode, god laboratoriepraksis, datainnsamling, og gir en introduksjon til feilanalyse i praksis og formelverk for dette. I parallell med forelesningene skal studentene gjennomføre en praktisk oppgave der de skal bygge sitt eget vakuumkammer med oppsett for å måle motstand.
+Ved ETHZ gis det forelesning 1 time pr uke parallelt med hele labundervisningen. Forelesningen behandler data-analyse, rapportskriving, en introduksjon til Latex, grunnleggende praktisk statistikk og regresjonsanalyse. Studentene må bestå et separat kurs i HMS før de får tilgang til laboratoriet.
+Ved TUM gis det kun én time forelesning. Den gis i første semester og handler om anvendt statistikk til bruk i analyse av eksperimentelle data. Imidlertid får studentene skriftlig læremateriell som de bruker gjennom hele laboratorieundervisningen. De får et hefte om dagens praksis av god laboratoriepraksis og god dokumentasjonspraksis. Dette heftet inneholder tips til videre litteratur. De får også et hefte om anvendt statistikk og feilanalyse, og et hefte om rapportskriving og en introduksjon til strukturen i en vitenskapelig artikkel. Studentene må ta et nettbasert HMS-kurs før de får tilgang til laboratoriet.
 
 \subsubsection{Praktiske laboratorieøvinger}
-Ved \textbf{EPFL} gjør studentene eksperimenter 2 – 6 semester. Eksperimentet det første studieåret består i å bygge et oppsett for å måle motstand, se kapittel \ref{forel_lab}. Det andre og tredje studieåret jobber studentene i par. Studentene får presentert en stor meny med eksperimenter som dekker mange felt i fysikk. Det andre studieåret skal studentene gjennomføre sju eksperimenter per semester. I hovedsak er disse eksperimentene basert på teori som studentene er godt kjent med fra før. Studentene får tildelt en "pakke" med eksperimenter fra menyen. Det tredje studieåret skal studentene gjennomføre tre eksperimenter per semester. Disse eksperimentene blir ikke avsluttet i én økt, men går over fire uker uker. Studentene søker om plass på eksperimentene på menyen og får tildelt eksperimenter etter ønske så godt det lar seg gjøre. 
- 
-Studentene får en «eksperimentmanual» som beskriver teorien bak eksperimentet og selve eksperimentet. Det andre studieåret kommer studentene til ferdige oppsett. Det tredje studieåret er det eksperimentelle oppsettet tegnet og beskrevet i eksperimentmanualen, men det varierer litt fra eksperiment til eksperiment om det er satt opp ferdig eller må settes opp av studentene. 
+Ved \textbf{EPFL} gjør studentene eksperimenter 2--6 semester. Eksperimentet det første studieåret består i å bygge et oppsett for å måle motstand, se kapittel \ref{forel_lab}. Det andre og tredje studieåret jobber studentene i par. Studentene får presentert en stor meny med eksperimenter som dekker mange felt i fysikk. Det andre studieåret skal studentene gjennomføre sju eksperimenter per semester. I hovedsak er disse eksperimentene basert på teori som studentene er godt kjent med fra før. Studentene får tildelt en "pakke" med eksperimenter fra menyen. Det tredje studieåret skal studentene gjennomføre tre eksperimenter per semester. Disse eksperimentene blir ikke avsluttet i én økt, men går over fire uker uker. Studentene søker om plass på eksperimentene på menyen og får tildelt eksperimenter etter ønske så godt det lar seg gjøre.
 
-Ved \textbf{ETHZ} gjør studentene praktiske eksperimenter i 3 – 6 semester. De jobber i grupper på to personer. Studentene får presentert en stor meny med eksperimenter som dekker alle fysikkfeltene som er forelest i de første studieårene. Det andre studieåret gjennomfører studentene en blanding av obligatoriske og valgte eksperimenter. Laboratorielederne sørger for at studentene gjennomfører eksperimenter som til sammen dekker alle fysikkfeltene som tilbys.  Det tredje studieåret har studentene færre obligatoriske og flere egenvalgte eksperimenter. Studentene oppfordres studentene til å fortsette å velge eksperimenter fra varierte felt, men har frihet til å ikke gjøre det.
+Studentene får en ``eksperimentmanual'' som beskriver teorien bak eksperimentet og selve eksperimentet. Det andre studieåret kommer studentene til ferdige oppsett. Det tredje studieåret er det eksperimentelle oppsettet tegnet og beskrevet i eksperimentmanualen, men det varierer litt fra eksperiment til eksperiment om det er satt opp ferdig eller må settes opp av studentene.
 
-Eksperimentene er for en stor del ferdige oppsett med en oppskrift som studentene skal følge. Imidlertid holder laboratorielederne på med en fornyelse av eksperimentene. De ønsker å avvikle eksperimenter med ferdige, kompliserte og perfeksjonerte oppsett. I stedet vil de legge til eksperimenter som viser reelle utfordringer med eksperimentelt arbeid, som for eksempel å opplinjere et optisk måleoppsett. Det er nok progresjon i eksperimentene, f.eks. innenfor elektronikk bygger eksperimentene på hverandre og blir mer komplekse etter hvert. ETHZ tilbyr eksperimenter som utføres med simuleringer. Disse eksperimentene er godt egnet for å generere store datamengder og for å illustrere statistikk. 
+Ved \textbf{ETHZ} gjør studentene praktiske eksperimenter i 3--6 semester. De jobber i grupper på to personer. Studentene får presentert en stor meny med eksperimenter som dekker alle fysikkfeltene som er forelest i de første studieårene. Det andre studieåret gjennomfører studentene en blanding av obligatoriske og valgte eksperimenter. Laboratorielederne sørger for at studentene gjennomfører eksperimenter som til sammen dekker alle fysikkfeltene som tilbys.  Det tredje studieåret har studentene færre obligatoriske og flere egenvalgte eksperimenter. Studentene oppfordres studentene til å fortsette å velge eksperimenter fra varierte felt, men har frihet til å ikke gjøre det.
 
-Studentene får en «eksperimentmanual» som beskriver teorien bak eksperimentet og selve eksperimentet. Laboratorielederne kunne gjerne ønsket å ha flere eksperimenter der studentene får en «boks» med en del utstyr og selv skal sette opp eksperimentet. Imidlertid er dette er ofte vanskelig å få til innenfor tidsbegrensningen på 4 timer.
+Eksperimentene er for en stor del ferdige oppsett med en oppskrift som studentene skal følge. Imidlertid holder laboratorielederne på med en fornyelse av eksperimentene. De ønsker å avvikle eksperimenter med ferdige, kompliserte og perfeksjonerte oppsett. I stedet vil de legge til eksperimenter som viser reelle utfordringer med eksperimentelt arbeid, som for eksempel å opplinjere et optisk måleoppsett. Det er nok progresjon i eksperimentene, f.eks.~innenfor elektronikk bygger eksperimentene på hverandre og blir mer komplekse etter hvert. ETHZ tilbyr eksperimenter som utføres med simuleringer. Disse eksperimentene er godt egnet for å generere store datamengder og for å illustrere statistikk.
 
-Ved \textbf{TUM} har studentene praktiske eksperimenter i 2 – 6 semester. I første og andre studieår jobber studentene i grupper på to personer. De skal gjennomføre et forhåndsbestemt program med seks eksperimenter per semester. (https://www.ph.tum.de/academics/org/labs/ap/). Eksperimentene er innenfor fysikken som ble undervist det foregående semesteret. 
-I tredje studieår jobber studentene i grupper på tre. De velger seks eksperimenter fra en meny, men fire av eksperimentene må være innenfor deres egne valgte studeretning. Studentene har en diskusjon med labassistenten i forkant av eksperimentet og de får en «eksperimentmanual» med teoribakgrunnen for eksperimentet. Hovedtyngden av alle eksperimentene er å samle eksperimentelle data og sammenlikne dem med en teoretisk verdi. Tredje studieår tilbys det eksperimenter basert på simuleringer. 
-Ved TUM er instrumentene som trengs for å gjennomføre eksperimentet tilgjenglige i laboratoriet. For noen eksperimenter må studentene sette opp oppsettet selv, og noen ganger er det ferdig satt opp til studentene. Oppsett med elektriske kretser bygger studentene selv fra bunnen av. Det vurderes å være for krevende for studentene, ta for lang tid og koste for mye om studentene skal designe et oppsett fra bunnen av. 
+Studentene får en ``eksperimentmanual'' som beskriver teorien bak eksperimentet og selve eksperimentet. Laboratorielederne kunne gjerne ønsket å ha flere eksperimenter der studentene får en «boks» med en del utstyr og selv skal sette opp eksperimentet. Imidlertid er dette er ofte vanskelig å få til innenfor tidsbegrensningen på 4 timer.
+
+Ved \textbf{TUM} har studentene praktiske eksperimenter i 2--6 semester. I første og andre studieår jobber studentene i grupper på to personer. De skal gjennomføre et forhåndsbestemt program med seks eksperimenter per semester. (https://www.ph.tum.de/academics/org/labs/ap/). Eksperimentene er innenfor fysikken som ble undervist det foregående semesteret.
+I tredje studieår jobber studentene i grupper på tre. De velger seks eksperimenter fra en meny, men fire av eksperimentene må være innenfor deres egne valgte studeretning. Studentene har en diskusjon med labassistenten i forkant av eksperimentet og de får en ``eksperimentmanual'' med teoribakgrunnen for eksperimentet. Hovedtyngden av alle eksperimentene er å samle eksperimentelle data og sammenlikne dem med en teoretisk verdi. Tredje studieår tilbys det eksperimenter basert på simuleringer.
+Ved TUM er instrumentene som trengs for å gjennomføre eksperimentet tilgjenglige i laboratoriet. For noen eksperimenter må studentene sette opp oppsettet selv, og noen ganger er det ferdig satt opp til studentene. Oppsett med elektriske kretser bygger studentene selv fra bunnen av. Det vurderes å være for krevende for studentene, ta for lang tid og koste for mye om studentene skal designe et oppsett fra bunnen av.
 
 \subsubsection{Arbeidsbelastning og vurdering}
-Ved EPFL får studentene 4 ECTS per semester i semester 2 – 4 og bruker 4 timer pr. uke. Det tredje studieåret får de 8 ECTS og bruker omtrent en dag pr. uke på eksperimentelt arbeid. Arbeidet dokumenteres i rapporter og ved presentasjon. Andre studieår gir studentene en 10 – 15 minutters muntlig presentasjon. Tredje studieår skal studentene både gi en muntlig presentasjon og lage en poster som presenteres på en mini-konferanse. Studentene får karakter på laboratoriearbeidet. Karakteren er basert på rapporter/presentasjon/poster og kvaliteten på det eksperimentelle arbeidet (forberedelser, labarbeid og resultater). 
-Studentene gir god tilbakemelding på laboratorieundervisningen i tredje studieår. I andre studieår mener studentene at de får for få ECTS i forhold til hvor mye arbeid rapportene krever. 
+Ved EPFL får studentene 4 ECTS per semester i semester 2--4 og bruker 4 timer per uke. Det tredje studieåret får de 8 ECTS og bruker omtrent en dag per uke på eksperimentelt arbeid. Arbeidet dokumenteres i rapporter og ved presentasjon. Andre studieår gir studentene en 10--15 minutters muntlig presentasjon. Tredje studieår skal studentene både gi en muntlig presentasjon og lage en poster som presenteres på en mini-konferanse. Studentene får karakter på laboratoriearbeidet. Karakteren er basert på rapporter/presentasjon/poster og kvaliteten på det eksperimentelle arbeidet (forberedelser, labarbeid og resultater).
+Studentene gir god tilbakemelding på laboratorieundervisningen i tredje studieår. I andre studieår mener studentene at de får for få ECTS i forhold til hvor mye arbeid rapportene krever.
 
-Ved ETHZ er det en økende belastning fra 3. til 6. semester med 5 ECTS det 3. semesteret til 8 ECTS det 6. semesteret. Et eksperiment krever et skriftlig forarbeid som skal vises til labassistenten, og det skal skrives en rapport etterpå. Eksperimentene tar 3 – 4 timer i labben det andre studieåret og studentene gjør 8 – 9 eksperimenter per semester. Det tredje studieåret tar eksperimentene opptil 2 dager, men studentene skal bare gjøre fire eksperimenter per semester. Studentene bruker mye mer tid på å skrive rapporten enn på å gjøre selve eksperimentet. 
-Det gis ikke karakter, men bestått/ikke bestått. Labundervisningen får blandet tilbakemelding fra studentene. Laboratorieledernes klare vurdering er at labassistenten er helt avgjørende for om studenten liker labundervisningen eller ikke.  
+Ved ETHZ er det en økende belastning fra 3.~til 6.~semester med 5 ECTS det 3.~semesteret til 8 ECTS det 6.~semesteret. Et eksperiment krever et skriftlig forarbeid som skal vises til labassistenten, og det skal skrives en rapport etterpå. Eksperimentene tar 3--4 timer i labben det andre studieåret og studentene gjør 8--9 eksperimenter per semester. Det tredje studieåret tar eksperimentene opptil 2 dager, men studentene skal bare gjøre fire eksperimenter per semester. Studentene bruker mye mer tid på å skrive rapporten enn på å gjøre selve eksperimentet.
+Det gis ikke karakter, men bestått/ikke bestått. Labundervisningen får blandet tilbakemelding fra studentene. Laboratorieledernes klare vurdering er at labassistenten er helt avgjørende for om studenten liker labundervisningen eller ikke.
 
-Ved TUM får studentene 5 ECTS i semester 2 – 4 og 6 ECTS per semester det tredje studieåret. Det er vanlig å bruke omtrent 3 timer på det eksperimentelle arbeidet og mye mer tid på rapporten. Labundervisningen er godt likt av studentene, særlig i semester 2 – 4. Det tredje året er labundervisningen godt likt av eksperimentalistene. 
+Ved TUM får studentene 5 ECTS i semester 2--4 og 6 ECTS per semester det tredje studieåret. Det er vanlig å bruke omtrent 3 timer på det eksperimentelle arbeidet og mye mer tid på rapporten. Labundervisningen er godt likt av studentene, særlig i semester 2--4. Det tredje året er labundervisningen godt likt av eksperimentalistene.
 
 \subsection{Rapportskriving}
-Ved EPFL skriver studentene rapporter fra hvert eksperiment i andre og tredje studieår. I andre studieår skriver de individuelle rapporter, det vil si 14 rapporter. Studentene får se eksempler på gode rapporter for å forstå hvordan de skal skrive. 
+Ved EPFL skriver studentene rapporter fra hvert eksperiment i andre og tredje studieår. I andre studieår skriver de individuelle rapporter, det vil si 14 rapporter. Studentene får se eksempler på gode rapporter for å forstå hvordan de skal skrive.
 
-Ved ETHZ skriver studentene rapporter i par etter hvert eksperiment. Dette betyr 17 rapporter i andre studieår og åtte rapporter det tredje studieåret. Studentene må gjøre selvstendige beregninger og feilanalyse i rapportene. Rapportene rettes og kommenteres av labassistentene. Laboratorielederne forteller at diskusjonen om de konkrete rapportene er en av de viktigste læringssituasjonene i laboratorieundervisningen. 
+Ved ETHZ skriver studentene rapporter i par etter hvert eksperiment. Dette betyr 17 rapporter i andre studieår og åtte rapporter det tredje studieåret. Studentene må gjøre selvstendige beregninger og feilanalyse i rapportene. Rapportene rettes og kommenteres av labassistentene. Laboratorielederne forteller at diskusjonen om de konkrete rapportene er en av de viktigste læringssituasjonene i laboratorieundervisningen.
 
-Ved TUM skriver studentene rapport i par etter hvert eksperiment. De tre første semestrene blir dette 18 rapporter. Alle rapportene gjennomgås og rettes av en labassistent, men tre av rapportene gjennomgås nøye sammen med assistenten. Studentene bruker mye tid på å organisere og skrive rapporten sin, og de trenger også mye tid på å øve seg på å plotte figurer, lage kurvetilpasninger og å presentere statistikk. Også ved TUM anses kommentarene på rapportene som en svært viktig del av laboratorieundervisningen. Labassistentene blir litt strengere med rettingen etter hvert som studentene har gjennomgått flere semestre.  
+Ved TUM skriver studentene rapport i par etter hvert eksperiment. De tre første semestrene blir dette 18 rapporter. Alle rapportene gjennomgås og rettes av en labassistent, men tre av rapportene gjennomgås nøye sammen med assistenten. Studentene bruker mye tid på å organisere og skrive rapporten sin, og de trenger også mye tid på å øve seg på å plotte figurer, lage kurvetilpasninger og å presentere statistikk. Også ved TUM anses kommentarene på rapportene som en svært viktig del av laboratorieundervisningen. Labassistentene blir litt strengere med rettingen etter hvert som studentene har gjennomgått flere semestre.
 
 \subsection{Sammenheng mellom teoretisk fysikkundervisning og praktiske laboratorieøvinger}
+Ved ETHZ og EPFL har ikke eksperimentene noen direkte sammenheng med den teoretiske undervisningen. Imidlertid er eksperimentene i 3.~og 4.~semester bygget på teori som studentene er godt kjent med fra før, slik at de ikke er avhengige av å ha hatt noen bestemte forelesninger først for å ha utbytte av eksperimentet. Ved TUM er laboratorieundervisningen i semester 2--4 forskjøvet med et semester slik at eksperimentene bygger på teori som ble forelest forrige semester.
 
-Ved ETHZ og EPFL har ikke eksperimentene noen direkte sammenheng med den teoretiske undervisningen. Imidlertid er eksperimentene i 3 – 4 semester bygget på teori som studentene er godt kjent med fra før, slik at de ikke er avhengige av å ha hatt noen bestemte forelesninger først for å ha utbytte av eksperimentet. Ved TUM er laboratorieundervisningen i semester 2 – 4 forskjøvet med et semester slik at eksperimentene bygger på teori som ble forelest forrige semester.
-
-Ved alle lærestedene kan studentene i 5 – 6 semester oppleve at eksperimentet bygger på teori som ennå ikke er forelest. Studentene får utdelt «eksperimentmanualer» som skal gi dem tilstrekkelig teoribakgrunn for eksperimentet. Laboratorieleder ved EPFL understreker at studentene kan oppleve å mangle teoretisk bakgrunn i arbeidslivet også, og at det er greit å forberede studentene på denne situasjonen.
-
+Ved alle lærestedene kan studentene i 5.~og 6.~semester oppleve at eksperimentet bygger på teori som ennå ikke er forelest. Studentene får utdelt ``eksperimentmanualer'' som skal gi dem tilstrekkelig teoribakgrunn for eksperimentet. Laboratorieleder ved EPFL understreker at studentene kan oppleve å mangle teoretisk bakgrunn i arbeidslivet også, og at det er greit å forberede studentene på denne situasjonen.
 
 \section{Mandat for ekstern arbeidsgruppe for evaluering av studieprogrammene MTFYMA og BFY}
 \subsection{Bakgrunn}
-I henhold til NTNUs system for kvalitetssikring skal alle studieprogram evalueres hvert femte år. Arbeidsgruppen er en del av en slik periodisk evaluering. Fra høsten 2019 innførte Institutt for fysikk såkalte ferdighetsstrenger innen 1) Numerisk fysikk og programmering (NP) og 2) Eksperimentell fysikk (XF). Hensikten er å få til en mer planmessig utvikling av studentenes ferdigheter innenfor disse områdene. 
+I henhold til NTNUs system for kvalitetssikring skal alle studieprogram evalueres hvert femte år. Arbeidsgruppen er en del av en slik periodisk evaluering. Fra høsten 2019 innførte Institutt for fysikk såkalte ferdighetsstrenger innen 1) numerisk fysikk og programmering (NP) og 2) eksperimentell fysikk (XF). Hensikten er å få til en mer planmessig utvikling av studentenes ferdigheter innenfor disse områdene.
 
 \subsection{Mål}
 Studieprogrammene ønsker å kartlegge eksisterende aktivitet innenfor disse områdene, samt få en ekstern evaluering, for å bruke dette som grunnlag for videreutvikling av ferdighetsstrengene.
@@ -580,7 +460,7 @@ Ett av medlemmene i gruppa utpekes som leder og er ansvarlig for gjennomføring 
 Studieprogrammene gjennomfører først en intern kartlegging av nåværende innhold i emnene relatert til ferdighetsstrengene. Studieprogramlederne systematiserer data og skriver et kort sammendrag. Denne kartleggingen ble ferdigstilt primo september 2020.
 Den eksterne arbeidsgruppa baserer sin evaluering basert på den interne kartleggingen. En studentgruppe vil arbeid parallelt med den eksterne komiteen med samme tema. Om ønskelig kan den eksterne arbeidsgruppen arrangere et møte med studentgruppen for å få studentenes perspektiv på innholdet av beregningsorientering og eksperimentell fysikk i utdanningene. Det anbefales å gjøre dette møtet digitalt.
 Hvert medlem i arbeidsgruppa skriver en egen vurdering av innholdet av ferdighetsstrengene innenfor sitt tema. Denne vurdering er basert på dokumentasjon fra den interne kartleggingen og skal besvare spørsmålene stilt over. Den interne kartleggingen inneholder også en del konkrete spørsmål som ønskes besvart (se kartleggingsdokument).
-I tillegg skal leder for arbeidsgruppa utarbeide ett sammendrag av arbeidsgruppas vurderinger, inkludert studentenes perspektiv på utdanningen. 
+I tillegg skal leder for arbeidsgruppa utarbeide ett sammendrag av arbeidsgruppas vurderinger, inkludert studentenes perspektiv på utdanningen.
 Frist for endelig rapport er 15. desember 2020.
 Arbeidsgruppa forventes å ha minst ett møte før sammendrag og endelig rapport sammenstilles.
 Arbeidsgruppa forventes å delta på et seminar i Trondheim for å legge frem arbeidsgruppas rapport og diskutere funn. Dette vil gjennomføres i løpet av januar 2021.
@@ -589,7 +469,7 @@ Arbeidsgruppa forventes å delta på et seminar i Trondheim for å legge frem ar
 Medlemmer i arbeidsgruppa honoreres etter gjeldende satser.
 Utgifter til angitte reiser og opphold dekkes.
 
-\bibliographystyle{unsrt}
+\bibliographystyle{abbrvnat}
 \bibliography{References}
 
 \end{document}
