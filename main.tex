@@ -31,9 +31,9 @@
 \maketitle
 
 %\newpage
-\begin{abstract}
+%\begin{abstract}
 
-\end{abstract}
+%\end{abstract}
 
 \newpage
 \tableofcontents
@@ -78,7 +78,7 @@ I enkelte fag blir studentene gitt gode ressurser og innføringer, slik som i fa
 
 Vår observasjon er at det er litt ulikt hvordan rapportskriving prioriteres og gjennomføres i de forskjellige studieretningene. Det virker som om det gis noe bedre trening i studieprogrammet ``Biofysikk og medisinsk teknologi'', blant annet gjennom faget TBT4102.
 
-Det ser ikke ut til at det brukes noe felles undervisningsmateriell som forklarer studenter på alle studieprogrammene de grunnleggende reglene for en vitenskapelig rapport. Artikkelen som brukes i faget TFY4260 kan fungere som en slik felles materiell. Alternativt materiell kan være tilsvarende, men litt kortere, artikler gitt i Ref.~\cite{Senturia2003}.
+Det ser ikke ut til at det brukes noe felles undervisningsmateriell som forklarer studenter på alle studieprogrammene de grunnleggende reglene for en vitenskapelig rapport. Artikkelen som brukes i faget TFY4260 kan fungere som en slik felles materiell. Alternativt materiell kan også være den tilsvarende, men litt kortere artikkelen i Ref.~\cite{Senturia2003}.
 
 
 
@@ -98,7 +98,7 @@ De aller fleste av de eksperimentelle oppgavene i fagene TMT4110, FY1001, FY1003
 \subsection{Kunnskap om god dokumentasjonspraksis}
 Undervisningen i eksperimentelle ferdigheter bruker en generell ressurs i Perssons kompendium~\cite{Persson2020}, men også mange tilleggsskriv fra de forskjellige faglærerne. Eksempler på tilleggs-skriv er heftet til Persson i emnet FY1001~\cite{Persson2020FY1001}. Det generelle kompendiet \cite{Persson2020} ser ut til å beskrive at en personlig, håndskrevet journal er det foretrukne mediet for å dokumentere ideer, protokoller, planer, eksperimentelle oppsett, beregninger og resultatvurderinger. Siden dokumentasjonspraksis er i stor endring, kan denne beskrivelsen virke noe snever.
 
- Kompendiet i TMT4110 gir gode forslag til hvordan studentene skal strukturere tabeller og journal for samtidig innsamling av måledata underveis i eksperimentet. Dermed gir labøvelsene i TMT4110 studentene mye trening i manuell datainnsamling. Faget gir studentene en grunnopplæring i manuell datainnsamling som er relevant og tilstrekkelig for arbeidsgivere. Studieprogrammet har ikke en liknende, veiledet trening i manuell datainnsamling i noen av fysikkfagene.
+Kompendiet i TMT4110 gir gode forslag til hvordan studentene skal strukturere tabeller og journal for samtidig innsamling av måledata underveis i eksperimentet. Dermed gir labøvelsene i TMT4110 studentene mye trening i manuell datainnsamling. Faget gir studentene en grunnopplæring i manuell datainnsamling som er relevant og tilstrekkelig for arbeidsgivere. Studieprogrammet har ikke en liknende, veiledet trening i manuell datainnsamling i noen av fysikkfagene.
 
 Ingen av kompendiene eller skrivene ser ut til å gi noen tydelige henvisninger til etablerte retningslinjer for ``\emph{good documentation practices}'' (GDP) eller ``\emph{good laboratory practice}'' (GLP). Praktiske henvisninger til GDP kan være f.eks.~Wikipedia~\cite{WikiGDP} eller kapittelet ``Good Documentation Practices'' i Ref.~\cite{Davani2017}. En praktisk henvisning til GLP kunne være f.eks.~deler av OECD sine prinsipper \cite{OECD1997}.
 
@@ -134,10 +134,7 @@ Opplæring i bruk av generiske verktøy og metodikk ser ut til å være mer frav
 
 \subsection{Kunnskap om programmering}
 \label{Sec:Programming}
-Studentene på MTFYMA og BFY har ett eller flere obligatoriske programmeringsfag. Under begge programmene er faget TDT4110 (IT-grunnkurs) obligatorisk. Den varianten som fysikkstudentene følger er basert på programmeringsspråket Python~\footnote{Andre studieretninger bruker Matlab som programmeringspråk i dette faget.}. Studentene blir gitt en generell introduksjon til informasjonsteknologi. Videre lærer de grunnleggende Python-programmering som det å kunne definere og bruke variabler, tabeller, aritmetiske og logiske uttrykk, løkker, metoder/funksjoner, filbehandling med mer. Det ser ut som det er lite fokus på numeriske beregninger i dette faget. For eksempel får ikke studenten i faget TDT4110 kunnskap eller opplæring i bruk av de kjernepakkene NumPy, SciPy eller matplotlib. Disse pakkene er essensielle Python-pakker for numeriske beregninger og vitenskaplig data-analyse. På denne bakgrunn, blir disse pakkene kort innført i øvingsopplegget i flere fysikk-fag selv om studentene ikke kan antas å godt kjenne disse pakkene. 
-
-{\color{red} Sammenlignet med enkelte andre programmeringsspråk, er Python i utgangspunktet et ineffektivt programmeringsspråk mtp. cpu-tid per operasjon, men optimaliserte biblioteker (f.eks. numpy) kan gjennomføre beregninger svært mye raskere enn suboptimal kode.
-Bevissthet rundt flaskehalser og tidsbruk i kildekode bør være noe av læringsutbyttet fra grunnleggende programmeringsfag i fysikkstudiet.}
+Studentene på MTFYMA og BFY har ett eller flere obligatoriske programmeringsfag. Under begge programmene er faget TDT4110 (IT-grunnkurs) obligatorisk. Den varianten som fysikkstudentene følger er basert på programmeringsspråket Python~\footnote{Andre studieretninger bruker Matlab som programmeringspråk i dette faget.}. Studentene blir gitt en generell introduksjon til informasjonsteknologi. Videre lærer de grunnleggende Python-programmering som det å kunne definere og bruke variabler, tabeller, aritmetiske og logiske uttrykk, løkker, metoder/funksjoner, filbehandling med mer. Det ser ut som det er lite fokus på numeriske beregninger i dette faget. For eksempel får ikke studenten i faget TDT4110 kunnskap eller opplæring i bruk av kjernepakkene NumPy, SciPy eller matplotlib. Disse pakkene er essensielle Python-pakker for numeriske beregninger og vitenskaplig data-analyse. Derfor blir disse pakkene kort innført i øvingsopplegget i flere fysikk-fag samt brukt i faget TMA4320 (som mange BFY studenter ikke tar), men dette er ikke tilstrekkelig til at studentene kan sies å ha god kjennskap til innholdet og bruken av disse viktige Python pakkene for numeriske beregninger. 
 
 Studieprogrammet MTFYMA har ytterligere ett rent programmeringsfag: ``Prosedyre- og objektorientert programmering''~(TDT4102). Her blir studentene gitt en introduksjon til programmeringsspråket C++ og dets objektorienterte karakter. Også i dette faget synes det å være lite fokus på numeriske beregninger. Videre har MTFYMA-studentene på våren det andre året det obligatoriske faget ``Introduksjon til vitenskapelige beregninger''~(TMA4320) hvor store deler av faget består av programmering. Dette faget består av to hoveddeler. Den første delen gir en introduksjon til numerisk matematikk, mens den andre delen er beregningsorienterte hvor studentene på datamaskinen skal løse tre konkrete beregningsorienterte problemstillinger hentet fra fysikk, biofysikk og matematikk. Det bør bemerkes at BFY studentene ikke har fagene TDT4102 og TMA4320 som obligatoriske emner slik som er tilfelle for MTFYMA. Dog kan begge disse fagene velges av BFY studentene.
 
@@ -155,7 +152,7 @@ Arbeidgivere vil forvente at studentene har en solid teoretisk kunnskapsbase og 
 Det vil forventes både evne til selvstendig arbeid og samarbeid i prosjekt-team.
 
 \subsection{Sammenfatte resultater av en undersøkelse i en rapport}
-Avhengig av fagfelt og arbeidssituasjon vil det i arbeidslivet kreves forskjellige typer rapporter. Ofte er forskningsspørsmålet fra industrikunden mer i retning: {\em Hvordan kan vi forbedre prosessen vår?}  og rapporten er bygd opp som: {\em Dette gjorde vi og dette fant vi ut.}  I yrkeslivet kommer man f.eks. også borti rapporter om bygging av labutstyr, etablering av algoritmer, testing av kildekode, komparative studier, testing av reproduserbarhet, tilstandsrapporter, revisjonsrapporter, evalueringsrapporter, m.m. Noen rapporter er lange og omfattende (\emph{monograph}) mens andre er ekstremt korte og konsise (e.g. \emph{letter to the editor} og \emph{technical notes}) og ofte er memo (i Powerpoint-format) den foretrukne rapporteringsformen til en kunde.
+Avhengig av fagfelt og arbeidssituasjon vil det i arbeidslivet kreves forskjellige typer rapporter. Ofte er forskningsspørsmålet fra industrikunden mer i retning av ``\emph{Hvordan kan vi forbedre prosessen vår?}'' og rapporten er bygd opp som ``\emph{dette gjorde vi og dette fant vi ut}''. I yrkeslivet kommer man også borti blant annet rapporter om bygging av labutstyr, etablering av algoritmer, testing av kildekode, komparative studier, testing av reproduserbarhet, tilstandsrapporter, revisjonsrapporter og evalueringsrapporter. Noen rapporter er lange og omfattende (\emph{monograph}) mens andre er ekstremt korte og konsise (e.g. \emph{letter to the editor} og \emph{technical notes}) og ofte er memo (i Powerpoint-format) den foretrukne rapporteringsformen til en kunde.
 
 En vitenskapelig rapport er egnet til å dokumentere et arbeid på en strukturert måte som gjør det mulig å gjenskape hva som ble gjort og vurdert.
 Den vitenskapelige rapporten har som formål å gjøre det tydelig for leserne hvilket problem som er behandlet, hvilken metode som er brukt til å behandle problemet og hvilket resultat metoden ga.
@@ -173,9 +170,6 @@ Til sist må metodikken som er benyttet for å oppnå resultatene beskrives tils
 Å kunne skrive en vitenskapelig rapport er derfor en generisk ferdighet som er etterspurt i arbeidslivet nesten uavhengig av fagfelt og arbeidsoppgaver.
 
 Øvelse i å skrive vitenskapelige rapporter krever at arbeidet egner seg for rapportskriving. Mange av eksperimentene studentene gjør har preg av å være demonstrasjoner av fysiske effekter. Dette er både gøy og godt egnet til å hjelpe studentene å forstå teori. Likevel, slike gode demonstrasjoner er ikke alltid godt egnet for å trene på rapportskriving. En vitenskapelig rapport er ofte skrevet for å besvare et klart formulert forskningsspørsmål eller hypotese. Det er svært få, om noen, av de oppgavene studentene får som formulerer et klart forskningsspørsmål eller hypotese. Da er det viktig at studentene får innføring i hva slags type rapport som kreves av dem.
-
-
-
 
 \subsection{Erfaring med å jobbe både i prosjektform og selvstendig}
 Mange oppgaver i arbeidslivet er organisert som et prosjekt med en prosjektleder og prosjektmedarbeidere.
@@ -218,14 +212,10 @@ Dette er viktig både for å sikre god faglig/vitenskapelig integritet ved at re
 
 Dokumentasjonspraksis er i stor endring for tiden. Ved noen arbeidsplasser brukes det kun elektroniske journaler som kan deles i et team mens andre steder kreves fortsatt håndskreven journal. Noen arbeidsplasser bruker Laboratory Information Management System (LIMS) systemer til dokumentasjon. De fleste som finansierer offentlig forskning og mange vitenskapelige tidsskrifter krever nå at alle data og kode fra et forskningsprosjekt skal lagres på en FAIR (findability, accessibility, interoperability, and reusability) måte. Samarbeidsverktøy for forskningsprosjekter har også utviklet seg slik at det er enklere enn før å dele journal, data og kode i sanntid. Det er nyttig for arbeidsgivere at nyutdannede studenter er forberedt på denne virkeligheten. Det er vesentlig at studentene lærer og trenes i de grunnleggende prinsippene for dokumentasjon og så etterhvert lærer og trener på hele kjeden av sporbarhet i journaler, data, kode, tolkninger og så videre.
 
-
-
 \subsection{Kjennskap til risikoanalyse}
-Risikoanalyse bør ikke kun omhandle ulykkespotensiale/HMS på lab og verksted, men også: planlegging (tid, ressurser), forsinkelser, budsjettoverskridelser,  avvikshåndtering, leveranseproblemer, etc. i prosjekter. Og i \emph{risk analysis} ligger også å identifisere og utnytte uforutsette muligheter og gunstige effekter. Mange arbeidsplasser og bedrifter bruker standardiserte metoder for risikoanalyse, f.eks.~Failure Mode and Effect Analysis (FMEA). Det er nyttig for arbeidsgivere at nye ansatte har kjennskap til konseptet risikoanalyse, og gjerne også kjennskap til en metodikk for å gjennomføre risikoanalyse. 
+Risikoanalyse bør ikke kun omhandle ulykkespotensiale/HMS på lab og verksted, men også: planlegging (tid, ressurser), forsinkelser, budsjettoverskridelser,  avvikshåndtering, leveranseproblemer, etc. i prosjekter. Og i \emph{risk analysis} ligger også å identifisere og utnytte uforutsette muligheter og gunstige effekter. Mange arbeidsplasser og bedrifter bruker standardiserte metoder for risikoanalyse, f.eks.~``Failure Mode and Effect Analysis'' (FMEA). Det er nyttig for arbeidsgivere at nye ansatte har kjennskap til konseptet risikoanalyse, og gjerne også kjennskap til en metodikk for å gjennomføre risikoanalyse. 
 På grunnleggende nivå vurderes det at ``kjennskap til risikoanalyse'' bør handle mer om tankesett enn konkrete verktøy.
-Trening i risikoanalyse bør ikke begrenses til det som kan gå galt på lab, men bør også inkludere prosjektrisiko - f.eks. hendelser/forhold som kan medføre forsinkelser eller redusert kvalitet i prosjekt.
-
-%{\color{red}(Jeg tror risikoanalyse bør handle mer om tankesett enn verktøy, på et grunnleggende nivå.  Risikoanalyse bør ikke begrenses til det som kan gå galt på lab, men bør også inkludere prosjektrisiko. F.eks., å forutse hvordan en global pandemi kan påvirke leveransen av det nødvendige verktøyet du trenger for å komme i mål med diplomen innen tidsfristen og hvilke tiltak du må sette i verk og til hvilket tidspunkt for å avhjelpe uønskede (forhåpentligvis ikke uforutsette) hendelser.)}
+Trening i risikoanalyse bør ikke begrenses til det som kan gå galt på lab, men bør også inkludere prosjektrisiko --- f.eks.~hendelser/forhold som kan medføre forsinkelser eller redusert kvalitet i prosjekt.
 
 \section{Behov i fremtidens samfunn: Eksperimentell kompetanse}
 \label{sec:behov-exp}
@@ -292,9 +282,9 @@ Vitenskapelige beregninger har som mål å utvikle nøyaktige metoder og modelle
 Med begrepet \emph{naturvitenskapelige beregninger} mener vi det å løse vitenskapelige og teknologiske problem ved hjelp av datamaskiner.
 Med kompetanse i naturvitenskapelige beregninger sikter vi til en samlende kompetanse i det som på engelsk kalles for ``computational science'' og ``data science''\footnote{Vi har valgt henholdsvis {\bf beregningsvitenskap} for det engelske begrepet ``computational science'' og {\bf datavitenskap} for det engelske samlebegrepet ``data science''.}. For et studium i fysikk vil dette inkludere metoder for analyse av data, slik som behandling av data og statistisk analyse, metoder fra numerisk analyse, analytiske metoder, symbolske beregninger og mer. Slik vi bruker ordet \emph{beregninger} i teksten her inkluderer det dermed metoder fra både beregningsvitenskap og datavitenskap, samt numeriske, symbolske og analytiske beregninger.
 
-Matematisk modellering er ett av kjerneområdene for en fysikker. Det å observere et fysisk fenomen, ofte via eksperimenter, for så å kunne beskrive det via matematiske ligninger som man så løser analytisk og/eller numerisk er kunnskap som gjør mange fysikere ettertraktet i næringlivet. I mange tilfeller ender man opp med hva som idag blir referert til som multifysikk og/eller multiskala problemer. 
-Løsningen av slike problemer er utfordrende og krevende. 
-For eksempel eksisterer det flere veletablerte  multifysikk-software (både kommersielle og gratis open source) som studentene kunne ha stor nytte av å bli kjent med. 
+Matematisk modellering er ett av kjerneområdene for en fysikker. Det å observere et fysisk fenomen, ofte via eksperimenter, for så å kunne beskrive det via matematiske ligninger som man så løser analytisk og/eller numerisk er kunnskap som gjør mange fysikere ettertraktet i næringlivet. I mange tilfeller ender man opp med hva som idag blir referert til som multifysikk og/eller multiskala problemer.
+Løsningen av slike problemer er utfordrende og krevende.
+For eksempel eksisterer det flere veletablerte  multifysikk-software (både kommersielle og gratis open source) som studentene kunne ha stor nytte av å bli kjent med.
 Man kunne for eksempel tenke seg at studentene lærte om et fysisk fenomen ved å studere dette via numeriske eksperimenter gjort via slike multifysikk programvare-pakker.
 
 I dag ser man en trend hvor næringlivet i større og større grad ønsker å benytte mer og mer kompliserte simuleringmodeller. Dette skyldes delvis at det ofte er langt mer kostnadsaffektivt å benytte storskala simuleringer der hvor man tidligere kun hadde muligheter til å gjøre eksperimentelle studier. Mer bruk av store og tidkrevende simuleringer betyr også at behovet for ``high-performance computing''~(HPC)-ressurser og personer som kan bruke og programmere slike vil vokse i fremtiden. Selv en ganske ordinær datamaskin (desktop eller laptop) har idag flere beregningskjerner~(CPU cores), slik at parallelle beregninger kan gjennomføres selv på ganske vanlige datamaskiner.
@@ -335,7 +325,7 @@ Noen generelle standarder er oppsummert på Standard Norges web-sider.
 Fremtidens ledere, forskere og ingeniører må påregne å måtte ha et aktivt forhold til disse.
 Det er hevet over tvil at fysikere vil ha en avgjørende rolle i oppnåelsen av FNs bærekraftsmål.
 
-Der Norsk Standard har en naturlig plass i de bransjerettede ingeniørutdanningene, er det uklart hvordan bærekraftsmålene naturlig kan introduseres i fysikkstudiet. Bærekraftsmålene er integrert i valgbare fag som for eksempel TMR2137, HIST3500 og TMMT4001. I tillegg er de valgbare fagene: FI3107, FI5205, FI5206 og IIKG3000 fokusert på etikk og personvern. Imidlertid bør det som et minimum det forventes at bærekraftmålene introduseres og arbeides med i fellesemnene (Ex.phil., Områdeemnet og Eksperter i Team)~\cite{NTNUFellesEmner}.
+Der Norsk Standard har en naturlig plass i de bransjerettede ingeniørutdanningene, er det uklart hvordan bærekraftsmålene naturlig kan introduseres i fysikkstudiet. Bærekraftsmålene er integrert i valgbare fag som for eksempel TMR2137, HIST3500 og TMMT4001. I tillegg er de valgbare fagene: FI3107, FI5205, FI5206 og IIKG3000 fokusert på etikk og personvern. Imidlertid bør det som et minimum forventes at bærekraftmålene introduseres og arbeides med i fellesemnene (Ex.phil., Områdeemnet og Eksperter i Team)~\cite{NTNUFellesEmner}.
 I tillegg kan man se for seg at tematikken kan belyses gjennom prosjektoppgaver og semesteroppgaver i øvrige fag.
 
 \section{Etiske betraktninger}
@@ -383,58 +373,55 @@ Grunnlaget fra første studieår i integrasjonen av teori, beregninger og eksper
 
 \section{Anbefalinger}
 \label{sec:anbefalinger}
+Den eksterne arbeidsgruppen ser noen mulige gap mellom innholdet i det nåværende undervisningsopplegget (\cref{Sammenlikning}) og behovene til samfunnet og arbeidsgivere nå og i fremtiden (\cref{sec:behov,sec:behov-exp,sec:behov-dig,sec:behov-bkraft}). 
 
+Gruppens erfaring er at de kandidatene som konsistent gjør mest inntrykk ved ansettelse, raskt blir verdsatt og gjør ''rask'' karriere har fire fellestrekk: de kan presist omsette en problemstilling i  testbar(e) hypotese(r), bryte disse ned i konkrete oppgaver, bidrar i den praktiske gjennomføring av oppgavene, og samenfatte og rapportere resultatene. De som utmerker seg har en \emph{trygghet i at de selvstendig og/eller i team} kan levere på den \emph{praktiske gjennomføringen}; det være seg oppsett og gjennomføring av forsøk, identifisering av de underliggende fenomener og matematisk beskrivelse av disse, eller numerisk implementering og løsning av disse modellene.  
 
-%{\color{red}Har vi noen tanker om hva som er særegenhetene ved fysikkstudiet (sml. m. andre M.Sc.-retninger)? Og hva er viktig å beholde av denne særegenheten og hva kan forsakes eller endres? Hva gjør en fysiker til en fysiker? Og hvilke kvaliteter har en fysiker som ikke andre M.Sc. har? Hvordan styrkes disse kvalitetene gjennom fysikkstudiet?}
+Basert på dette fremmer vi i det følgende noen konkrete anbefalinger relatert til de forskjellige ferdighetsstrengene.
 
-Den eksterne arbeidsgruppen ser noen mulige gap mellom innholdet i det nåværende undervisningsopplegget (\cref{Sammenlikning}) og behovene til samfunnet og arbeidsgivere nå og i fremtiden (\cref{sec:behov,sec:behov-exp,sec:behov-dig,sec:behov-bkraft}). Det følgende er en liste med mer konkrete anbefalinger basert på arbeidsgruppens analyse.
-
-%\todo{Vi burde vurdere å strukturere det følgende noe mer.}
-\subsection{Fellesanbefaliner for begge ferdighetsstrenger}
-
+\subsection{Fellesanbefalinger for begge ferdighetsstrenger}
 \begin{itemize}
- 
-  
   \item Arbeidsgruppen anbefaler at det vurderes å styrke studentenes trening i å skrive vitenskapelige rapporter, både med tanke på antall rapporter og tilbakemelding på rapportene som skrives. Etter arbeidsgruppens syn ville det være nyttig for studentene å bli presentert for strukturen i en vitenskapelig rapport samtidig som de skal gjennomføre eksperimenter. Strukturen og krav til en vitenskapelig rapport kan gjerne presenteres gjennom utdrag fra eksisterende bøker eller artikler. Det vil også være nyttig for studentene å få tilbakemelding på sine skriftlige rapporter, slik at de forstår i hvilken grad rapportene de skriver oppfyller kravene til en vitenskapelig rapport. Det ville være nyttig for studentene at det gis konsistent tilbakemelding på rapportene uavhengig av hvilken faglærer som gir den teoretiske undervisningen. Etter arbeidsgruppens syn kan det være nyttig for studentene å få et eksplisitt formulert forskningsspørsmål for det aktuelle eksperimentet når studentene skal lære seg å skrive vitenskapelig rapport.
 
-  \item Arbeidsgruppen anbefaler at det vurderes å gi studentene kjennskap til eksterne ressurser om oppdaterte retningslinjer for god dokumentasjonspraksis (GDP) og god laboratoriepraksis GLP). En videre anbefaling er å gi studentene kjennskap til vanlige verktøy for versjonskontroll og dokumentasjon av kode. Det kan også vurderes å gi studentene en innføring i rådende praksis for journalbruk og journalføring, slik journaler er vanlig brukt i arbeidslivet i dag. Etter arbeidsgruppens syn vil det være nyttig for studentene om denne kunnskapen anvendes på en konsistent måte gjennom alle laboratoriekursene, uavhengig av hvilken faglærer som gir den teoretiske undervisningen. {\color{red} Hovedprinsippet (alt som rapporteres skal gjennom dokumentasjon kunne spores tilbake til de handlinger som ble utført i labben og analysen som fulgte) må følges konsekvent, men med de utallige praksiser som eksisterer i dag er det unaturlig å holde seg til én bestemt måte å gjøre det på. Det er vanskelig og må læres skrittvis.}
-  
-  \item Arbeidsgruppen anbefaler at det vurderes å gi laboratoriekursene egne ECTS eller liknende kreditering, slik som det gjøres ved de utenlandske lærestedene som gruppen har vært i kontakt med. En selvstendig kreditering av laboratoriearbeidet kan bidra til å synliggjøre hvor viktig dette arbeidet er, og vil gi en indikasjon på hvor stor arbeidsinnsats det er forventet av studentene skal legge i kursene.
+  \item Arbeidsgruppen anbefaler at studentene gis en systematisk opplæring i god dokumentasjonspraksis. Basert på prinsippet om sporbarhet omfatter dette både laboratoriebasert og beregningsbasert arbeid. Lærerkollegiet bør gjøre et utvalg av den omfattende serien av varierende praksiser innen alt fra journalføring og versjonskontroll til rapportskriving og FAIR datalagring. En systematisk opplæring vil innebære en koordinering av undervisningen i de forskjellige laboratorie- og beregningskursene.
 
   \item Arbeidsgruppen anbefaler at det vurderes å gjennomføre noen laboratorieoppgaver og/eller vitenskapelige rapporter som individuelt arbeid. Etter arbeidsgruppens syn kan individuelt arbeid forberede studentene på den grad av selvstendighet som de kan forvente å møte i arbeidslivet.
-  
+\end{itemize}
+
 \subsection{Eksperimentell fysikk}
+\begin{itemize}
+  \item Arbeidsgruppen anbefaler at det vurderes å gi laboratoriekursene egne ECTS eller liknende kreditering, slik som det gjøres ved de utenlandske lærestedene som gruppen har vært i kontakt med. En selvstendig kreditering av laboratoriearbeidet kan bidra til å synliggjøre hvor viktig dette arbeidet er, og vil gi en indikasjon på hvor stor arbeidsinnsats det er forventet at studentene skal legge i kursene.
 
   \item Hovedhensikten ved laboratorieundervisningen kan synes noe uklart formulert. Arbeidsgruppen foreslår en gjennomgang og prioritering av hensiktene med undervisningen. Mulige hensikter inkluderer f.eks.~å støtte innlæringen av den teoretiske undervisningen, å undervise fysikk som ikke blir forelest, å undervise i måleteknikk og måleusikkerhet, å trene på praktisk bruk av måleinstrumenter, å trene på kommunikasjon av eksperimentelle resultater, å utvikle studentenes evne til samarbeid, å gi studentene mulighet til å se egenverdien av eksperimenter, og å vise at fysikk er et eksperimentelt fag. Det finnes også andre mulige hensikter med undervisningen. Det kan være vanskelig å oppnå alle hensiktene slik at det kan være nødvendig å prioritere noen hensikter foran andre. Det ser ut til å være en del nyere litteratur om i hvilken grad labaoratorieundervisning ser ut til å være egnet for å oppnå forskjellige hensikter. For eksempel viser \citet{Holmes} at tradisjonell laboratorieundervisning ser ut til å ha neglisjerbar støtteeffekt for innlæring av den teoretiske undervisningen.
-   
+
   \item Arbeidsgruppen foreslår en gjennomgang av de eksisterende laboratorieoppgavene for å evaluere i hvilken grad de støtter hensikten med undervisningen og benytter et egnet pedagogisk opplegg. En slik gjennomgang ville forutsette at det er etablert en prioritering av hensikter med laboratorieundervisningen. Litteratur om hva slags pedagogisk opplegg som er egnet til å oppnå de forskjellige hensiktene kan være en støtte i en slik gjennomgang. Etter arbeidsgruppens oppfatning tyder litteraturen på at opplegg der studentene skal gjennomføre et eksperiment på et ferdig oppsett ved å følge en eksperimentmanual har lite læringsutbytte sammenliknet med andre pedagogiske opplegg.
 
-
-
- 
-
   \item Det er arbeidsgruppens oppfatning at det nåværende undervisningsopplegget i liten grad inkluderer elementer av eksperimentdesign og protokollskriving i laboratorieoppgavene. Arbeidsgruppen anbefaler at det vurderes muligheten for å inkludere noen slike elementer i allerede eksisterende laboratorieoppgaver. Noen mulige aktuelle elementer er beskrevet i listen nedenfor:
-    
+
     \begin{itemize}
       \item På forhånd bestemme hvilken nøyaktighet måleresultatet må ha for at resultatet skal ha verdi. Eksempel: hvor nøyaktig må eksperimentet ``bestemme vekt på koffert'' være for at en er sikker på å ikke måtte betale for overvektig bagasje på flyet.
       \item Vurdere alternativer for eksperimentelle metoder: hvilke kan og hvilke kan ikke gi den nødvendige nøyaktigheten i målingene. I arbeidslivet vil det være naturlig å vurdere nøyaktighet i eksperimentet på forhånd for å kunne avgjøre om den eksperimentelle metoden kan brukes eller ikke. 
       \item Sammenlikne ressursbruk ved alternative eksperimentelle metoder: hvor mye ressurser trengs for å gjennomføre eksperimentet?
       \item Bestemme det nødvendige antall paralleller/replikater som må gjøres av et eksperiment for å få størrelsen på tilfeldig feil til å bli ``lav nok'' og bestemme hva som er ``lavt nok''.
       \item Finne om det er én verdi i et beregnet uttrykk som dominerer usikkerheten i måleresultatet. Vurdere om det er et annet måleutstyr som bør skiftes ut for å bedre nøyaktigheten. Eksempel: en mer nøyaktig vekt, en sensor med høyere oppløsning.
-      \item Se effekten av å bruke kalibrerte måleinstrumenter og mulig konsekvens av ikke-kalibrerte måleinstrumenter. Ingen av laboratorieoppgavene gir en demonstrasjon av mulig konsekvens av å bruke ikke-kalibrerte måleinstrumenter, selv om flere oppgaver nevner at måleutstyret er kalibrert. 
+      \item Se effekten av å bruke kalibrerte måleinstrumenter og mulig konsekvens av ikke-kalibrerte måleinstrumenter. Ingen av laboratorieoppgavene gir en demonstrasjon av mulig konsekvens av å bruke ikke-kalibrerte måleinstrumenter, selv om flere oppgaver nevner at måleutstyret er kalibrert.
     \end{itemize}
-    \subsection {Beregningsorientert fysikk}
+  \end{itemize}
+\subsection{Beregningsorientert fysikk}
+\begin{itemize}
   \item Arbeidsgruppen anbefaler at ulike beregningsalgoritmer presenteres og brukes på et systematisk og koherent vis gjennom hele studieløpet, gjerne i tett samarbeid med andre institutt. Et synkronisert studieløp letter også introduksjonen og bruken av ulike beregningsmetoder i et gitt fysikkfag.
   \item Arbeidsgruppen anbefaler at det legges inn økt fokus på god kodeutviklingspraksis, for eksempel ved bruk av versjonskontrollprogramvare.
   \item Arbeidsgruppen anbefaler at studentene blir introdusert til optimalisering og parallelisering av kode. Eksempler på nyttige øvelser er å teste skalerbarhet ved bruk av flere prosessorer og å sammenligne eksekveringstid for ulike algoritmer/fremgangsmåter/kodebiblioteker.
   \item Arbeidsgruppen anbefaler at programmeringsfag inkluderer løsing av numeriske problemstillinger (egenprogrammert og gjennom bruk av standardbiblioteker) i tillegg til grunnleggende programmeringsferdigheter.
   \item Arbeidsgruppen anbefaler at studentene introduseres til veletablerte simulerings-software (kommersielle eller gratis open source) for å løse komplekse oppgaver.
-\subsection{Integrasjon av eksperimentell og beregningsorientert fysikk}
-   
-  \item Arbeidsgruppen anbefaler at det vurderes å integrere beregningsorientert fysikk og eksperimentelt rettet fysikk i større grad enn i det nåværende undervisningsopplegget. Det kan vurderes å etablere laboratorieoppgaver der bruk av beregningsalgoritmer og simuleringer inngår som to av flere verktøy som kan brukes for å løse en oppgave, på linje med andre måleinstrumenter. Det kan også vurderes å etablere laboratorieoppgaver der numeriske beregninger eller simuleringer brukes som et verktøy for å optimalisere et fysisk måleoppsett.
-  
 \end{itemize}
-\newpage
+
+\subsection{Integrasjon av eksperimentell og beregningsorientert fysikk}
+\begin{itemize}
+  \item Arbeidsgruppen anbefaler at det vurderes å integrere beregningsorientert fysikk og eksperimentelt rettet fysikk i større grad enn i det nåværende undervisningsopplegget. Det kan vurderes å etablere laboratorieoppgaver der bruk av beregningsalgoritmer og simuleringer inngår som to av flere verktøy som kan brukes for å løse en oppgave, på linje med andre måleinstrumenter. Det kan også vurderes å etablere laboratorieoppgaver der numeriske beregninger eller simuleringer brukes som et verktøy for å optimalisere et fysisk måleoppsett.
+\end{itemize}
+
+\clearpage
 \appendix
 \section{Referat fra møter med EPFL, ETHZ og TUM}
 \label{Referat}
@@ -530,42 +517,40 @@ Arbeidsgruppa forventes å delta på et seminar i Trondheim for å legge frem ar
 Medlemmer i arbeidsgruppa honoreres etter gjeldende satser.
 Utgifter til angitte reiser og opphold dekkes.
 
-
 \section{Kurskoder fra studieplan for MTFYMA}
 Nedenfor er en liste av kurskodene for MTFYMA nevnt i denne rapporten.
 
-\begin{table}[]
-\begin{tabular}{llllll}
-EXPH0004 & Examen philosophicum for naturvitenskap og teknologi               & 7.5 & O  &    &    \\
-FY1001   & Mekanisk   fysikk                                                  & 7.5 & O  &    &    \\
-TDT4110  & Informasjonsteknologi,   grunnkurs                                 & 7.5 & O  &    &    \\
-TMA4100  & Matematikk 1                                                       & 7.5 & O  &    &    \\
-FY1003   & Elektrisitet   og magnetisme                                       & 7.5 & O  &    &    \\
-TMT4110  & Kjemi                                                              & 7.5 & O  &    &    \\
-TFY4165  & Termisk   fysikk                                                   & 7.5 & O  &    &    \\
-TDT4102  & Prosedyre-   og objektorientert programmering                      & 7.5 & O  &    &    \\
-TMA4320  & Introduksjon   til vitenskapelige beregninger                      & 7.5 & O  &    &    \\
-         &                                                                    &     &    &    &    \\
-TFY4185  & Måleteknikk                                                        & 7.5 & O  & O  &    \\
-TBT4102  & Biokjemi 1                                                         & 7.5 & O  &    &    \\
-         &                                                                    &     &    &    &    \\
-TFY4190  & Instrumentering                                                    & 7.5 & O  & O  &    \\
-TFY4220  & Faste   stoffers fysikk                                            & 7.5 & VA & O  &    \\
-TFY4260  & Cellebiologi   og cellulær biofysikk                               & 7.5 & O  &    &    \\
-         &                                                                    &     &    &    &    \\
-FI3107   & Bioteknologi   og etikk                                            & 7.5 & VB & VB & VB \\
-FI5205   & Corporate   Responsibility and Ethics                              & 7.5 & VB & VB & VB \\
-FI5206   & Technology   for a Good Society                                    & 7.5 & VB & VB & VB \\
-IIKG3000 & Introduksjon   til informasjonssikkerhet og personvern             & 7.5 & VB & VB & VB \\
-TIØ4201  & Risikohåndtering,   samfunnssikkerhet og kritisk infrastruktur     & 7.5 & VB & VB & VB \\
-TMR4137  & Bærekraftig   utnyttelse av marine ressurser                       & 7.5 & VB & VB & VB \\
-TIØ4306  & Strategier   for industriell bærekraft                             & 7.5 & VB & VB & VB \\
-HIST3500 & Bærekraftig   over tid. Miljø- og samfunnsutvikling for teknologer & 7.5 & VB & VB & VB \\
-TMMT4001 & Bærekraftig   matproduksjon                                        & 7.5 & VB & VB & VB
-\end{tabular}
+\begin{table}
+  \scriptsize
+  \begin{tabular}{llllll}
+    EXPH0004 & Examen philosophicum for naturvitenskap og teknologi               & 7.5 & O  &    &    \\
+    FY1001   & Mekanisk   fysikk                                                  & 7.5 & O  &    &    \\
+    TDT4110  & Informasjonsteknologi,   grunnkurs                                 & 7.5 & O  &    &    \\
+    TMA4100  & Matematikk 1                                                       & 7.5 & O  &    &    \\
+    FY1003   & Elektrisitet   og magnetisme                                       & 7.5 & O  &    &    \\
+    TMT4110  & Kjemi                                                              & 7.5 & O  &    &    \\
+    TFY4165  & Termisk   fysikk                                                   & 7.5 & O  &    &    \\
+    TDT4102  & Prosedyre-   og objektorientert programmering                      & 7.5 & O  &    &    \\
+    TMA4320  & Introduksjon   til vitenskapelige beregninger                      & 7.5 & O  &    &    \\
+             &                                                                    &     &    &    &    \\
+    TFY4185  & Måleteknikk                                                        & 7.5 & O  & O  &    \\
+    TBT4102  & Biokjemi 1                                                         & 7.5 & O  &    &    \\
+             &                                                                    &     &    &    &    \\
+    TFY4190  & Instrumentering                                                    & 7.5 & O  & O  &    \\
+    TFY4220  & Faste   stoffers fysikk                                            & 7.5 & VA & O  &    \\
+    TFY4260  & Cellebiologi   og cellulær biofysikk                               & 7.5 & O  &    &    \\
+             &                                                                    &     &    &    &    \\
+    FI3107   & Bioteknologi   og etikk                                            & 7.5 & VB & VB & VB \\
+    FI5205   & Corporate   Responsibility and Ethics                              & 7.5 & VB & VB & VB \\
+    FI5206   & Technology   for a Good Society                                    & 7.5 & VB & VB & VB \\
+    IIKG3000 & Introduksjon   til informasjonssikkerhet og personvern             & 7.5 & VB & VB & VB \\
+    TIØ4201  & Risikohåndtering,   samfunnssikkerhet og kritisk infrastruktur     & 7.5 & VB & VB & VB \\
+    TMR4137  & Bærekraftig   utnyttelse av marine ressurser                       & 7.5 & VB & VB & VB \\
+    TIØ4306  & Strategier   for industriell bærekraft                             & 7.5 & VB & VB & VB \\
+    HIST3500 & Bærekraftig   over tid. Miljø- og samfunnsutvikling for teknologer & 7.5 & VB & VB & VB \\
+    TMMT4001 & Bærekraftig   matproduksjon                                        & 7.5 & VB & VB & VB
+  \end{tabular}
 \end{table}
-
-\newpage
 
 \bibliographystyle{abbrvnat}
 \bibliography{References}
